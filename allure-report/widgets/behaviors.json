@@ -1,0 +1,15 @@
+{
+  "total" : 18,
+  "items" : [ {
+    "uid" : "d9269bea0e9ff730fb29641dcf5f47d9",
+    "name" : "Launch Url",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

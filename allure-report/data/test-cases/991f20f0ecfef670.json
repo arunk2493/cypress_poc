@@ -1,0 +1,57 @@
+{
+  "uid" : "991f20f0ecfef670",
+  "name" : "GET single User - Stubbed Response",
+  "fullName" : "GET single User - Stubbed Response",
+  "historyId" : "3261f7cb811aa64c6423b705ee937753",
+  "time" : {
+    "start" : 1648659143502,
+    "stop" : 1648659143503,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `/Users/arunkumarkumaraswamy/Documents/Study/Cypress/cypress_poc/cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+  "statusTrace" : "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `/Users/arunkumarkumaraswamy/Documents/Study/Cypress/cypress_poc/cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://reqres.in/__cypress/runner/cypress_runner.js:158301:72)\n    at https://reqres.in/__cypress/runner/cypress_runner.js:159354:16\n    at tryCatcher (https://reqres.in/__cypress/runner/cypress_runner.js:13022:23)\n    at https://reqres.in/__cypress/runner/cypress_runner.js:8144:41\n    at tryCatcher (https://reqres.in/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://reqres.in/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://reqres.in/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://reqres.in/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://reqres.in/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (https://reqres.in/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (https://reqres.in/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://reqres.in/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (https://reqres.in/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (https://reqres.in/__cypress/tests?p=cypress/integration/basic-examples/interception-testing-library.spec.ts:98:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `/Users/arunkumarkumaraswamy/Documents/Study/Cypress/cypress_poc/cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+    "statusTrace" : "CypressError: Timed out after waiting `30000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `30000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `/Users/arunkumarkumaraswamy/Documents/Study/Cypress/cypress_poc/cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://reqres.in/__cypress/runner/cypress_runner.js:158301:72)\n    at https://reqres.in/__cypress/runner/cypress_runner.js:159354:16\n    at tryCatcher (https://reqres.in/__cypress/runner/cypress_runner.js:13022:23)\n    at https://reqres.in/__cypress/runner/cypress_runner.js:8144:41\n    at tryCatcher (https://reqres.in/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://reqres.in/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://reqres.in/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://reqres.in/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://reqres.in/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (https://reqres.in/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (https://reqres.in/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://reqres.in/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (https://reqres.in/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (https://reqres.in/__cypress/tests?p=cypress/integration/basic-examples/interception-testing-library.spec.ts:98:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "22103c2ea1447ee2",
+      "name" : "video recording",
+      "source" : "22103c2ea1447ee2.mp4",
+      "type" : "video/mp4",
+      "size" : 7820403
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception Testing Library"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "991f20f0ecfef670.json",
+  "parameterValues" : [ ]
+}

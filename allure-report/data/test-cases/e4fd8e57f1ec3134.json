@@ -1,0 +1,173 @@
+{
+  "uid" : "e4fd8e57f1ec3134",
+  "name" : "Verify the header - testing Library",
+  "fullName" : "Verify the header - testing Library",
+  "historyId" : "02348639a08dd1bdc5061de890834e24",
+  "time" : {
+    "start" : 1648644319360,
+    "stop" : 1648644321831,
+    "duration" : 2471
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648644319361,
+        "stop" : 1648644321798,
+        "duration" : 2437
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://danube-webshop.herokuapp.com/",
+        "time" : {
+          "start" : 1648644319380,
+          "stop" : 1648644321797,
+          "duration" : 2417
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648644321796,
+          "stop" : 1648644321796,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648644321796,
+          "stop" : 1648644321796,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648644321797,
+          "stop" : 1648644321797,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /api/books",
+        "time" : {
+          "start" : 1648644321797,
+          "stop" : 1648644321797,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "findByText Top sellers",
+      "time" : {
+        "start" : 1648644321799,
+        "stop" : 1648644321830,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<h2>** to exist in the DOM",
+      "time" : {
+        "start" : 1648644321830,
+        "stop" : 1648644321830,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "<h2>"
+      }, {
+        "name" : "expected",
+        "value" : "<h2>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4fd8e57f1ec3134.json",
+  "parameterValues" : [ ]
+}

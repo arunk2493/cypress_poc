@@ -1,0 +1,659 @@
+{
+  "uid" : "626df9f147ef8ea1",
+  "name" : "GET single User - Stubbed Response",
+  "fullName" : "GET single User - Stubbed Response",
+  "historyId" : "3261f7cb811aa64c6423b705ee937753",
+  "time" : {
+    "start" : 1648700002066,
+    "stop" : 1648700008598,
+    "duration" : 6532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648700002067,
+        "stop" : 1648700002181,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "intercept (\"GET\"; \"**/api/users?page=2\"; \"{ fixture: 'users.json' }\")",
+        "time" : {
+          "start" : 1648700002174,
+          "stop" : 1648700002180,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"books\")",
+        "time" : {
+          "start" : 1648700002180,
+          "stop" : 1648700002181,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "visit https://reqres.in/",
+      "time" : {
+        "start" : 1648700002187,
+        "stop" : 1648700007474,
+        "duration" : 5287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://reqres.in/api/users?page=2",
+      "time" : {
+        "start" : 1648700007472,
+        "stop" : 1648700007472,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://srv.buysellads.com/ads/CEBIP53J.json?segment=placement:reqresin-sponsor",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://m.stripe.com/6",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /api/users?page=2",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1983050767&t=pageview&_s=1&dl=https://reqres.in/&ul=en-gb&de=UTF-8&dt=Reqres - A hosted REST-API ready to respond to your AJAX requests&sd=30-bit&sr=1792x1120&vp=1000x660&je=0&_u=IEBAAEABAAAAAC~&jid=697071488&gjid=1537497095&cid=1807950379.1648700004&tid=UA-55888877-1&_gid=366533634.1648700004&_r=1&_slc=1&z=985408653",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1983050767&t=pageview&_s=1&dl=https://reqres.in/&ul=en-gb&de=UTF-8&dt=Reqres - A hosted REST-API ready to respond to your AJAX requests&sd=30-bit&sr=1792x1120&vp=1000x660&je=0&_u=YEDAAUABAAAAAC~&jid=138279291&gjid=1317004455&cid=1807950379.1648700004&tid=UA-174008107-1&_gid=366533634.1648700004&_r=1&gtm=2ou3n1&z=1103207301",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1983050767&t=pageview&_s=1&dl=https%3A%2F%2Freqres.in%2F&ul=en-gb&de=UTF-8&dt=Reqres%20-%20A%20hosted%20REST-API%20ready%20to%20respond%20to%20your%20AJAX%20requests&sd=30-bit&sr=1792x1120&vp=1000x660&je=0&_u=IEBAAEABAAAAAC~&jid=697071488&gjid=1537497095&cid=1807950379.1648700004&tid=UA-55888877-1&_gid=366533634.1648700004&_r=1&_slc=1&z=985408653",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1983050767&t=pageview&_s=1&dl=https%3A%2F%2Freqres.in%2F&ul=en-gb&de=UTF-8&dt=Reqres%20-%20A%20hosted%20REST-API%20ready%20to%20respond%20to%20your%20AJAX%20requests&sd=30-bit&sr=1792x1120&vp=1000x660&je=0&_u=YEDAAUABAAAAAC~&jid=138279291&gjid=1317004455&cid=1807950379.1648700004&tid=UA-174008107-1&_gid=366533634.1648700004&_r=1&gtm=2ou3n1&z=1103207301",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://stats.codesandbox.io/",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://stats.codesandbox.io/",
+      "time" : {
+        "start" : 1648700007473,
+        "stop" : 1648700007473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://codesandbox.io/public/onigasm/2.2.1/onigasm.wasm",
+      "time" : {
+        "start" : 1648700007474,
+        "stop" : 1648700007474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://stats.codesandbox.io/",
+      "time" : {
+        "start" : 1648700007474,
+        "stop" : 1648700007474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/package.json",
+      "time" : {
+        "start" : 1648700007474,
+        "stop" : 1648700007474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/prettierrc.json",
+      "time" : {
+        "start" : 1648700007474,
+        "stop" : 1648700007474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/jsconfig.json",
+      "time" : {
+        "start" : 1648700007474,
+        "stop" : 1648700007474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/tsconfig.json",
+      "time" : {
+        "start" : 1648700007474,
+        "stop" : 1648700007474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "findByText Single user",
+      "time" : {
+        "start" : 1648700007474,
+        "stop" : 1648700007505,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<a>** to exist in the DOM",
+      "time" : {
+        "start" : 1648700007505,
+        "stop" : 1648700007505,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "<a>"
+      }, {
+        "name" : "expected",
+        "value" : "<a>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1648700007505,
+        "stop" : 1648700008035,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://codesandbox.io/api/v1/sandboxes/j17lt/phishing",
+      "time" : {
+        "start" : 1648700008033,
+        "stop" : 1648700008033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://reqres.in/api/users/2",
+      "time" : {
+        "start" : 1648700008035,
+        "stop" : 1648700008035,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "intercept (\"GET\"; \"**/api/users/2\"; \"{ fixture: 'singleuser.json' }\")",
+      "time" : {
+        "start" : 1648700008037,
+        "stop" : 1648700008176,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://codesandbox.io/cdn-cgi/rum?",
+      "time" : {
+        "start" : 1648700008175,
+        "stop" : 1648700008175,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://data.jsdelivr.com/v1/package/npm/@babel/runtime",
+      "time" : {
+        "start" : 1648700008175,
+        "stop" : 1648700008175,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://prod-packager-packages.codesandbox.io/v2/packages/node-libs-browser/2.2.1.json",
+      "time" : {
+        "start" : 1648700008175,
+        "stop" : 1648700008175,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://data.jsdelivr.com/v1/package/npm/@babel/core",
+      "time" : {
+        "start" : 1648700008176,
+        "stop" : 1648700008176,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://prod-packager-packages.codesandbox.io/v2/packages/react/17.0.0.json",
+      "time" : {
+        "start" : 1648700008176,
+        "stop" : 1648700008176,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://prod-packager-packages.codesandbox.io/v2/packages/react-dom/17.0.0.json",
+      "time" : {
+        "start" : 1648700008176,
+        "stop" : 1648700008176,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://prod-packager-packages.codesandbox.io/v2/packages/react-refresh/0.9.0.json",
+      "time" : {
+        "start" : 1648700008176,
+        "stop" : 1648700008176,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"user\")",
+      "time" : {
+        "start" : 1648700008176,
+        "stop" : 1648700008177,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "findByText /api/users/2",
+      "time" : {
+        "start" : 1648700008177,
+        "stop" : 1648700008204,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.url>** to exist in the DOM",
+      "time" : {
+        "start" : 1648700008204,
+        "stop" : 1648700008204,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "<span.url>"
+      }, {
+        "name" : "expected",
+        "value" : "<span.url>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1648700008204,
+        "stop" : 1648700008561,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1648700008561,
+        "stop" : 1648700008561,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /api/users/2",
+      "time" : {
+        "start" : 1648700008561,
+        "stop" : 1648700008561,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://prod-packager-packages.codesandbox.io/v2/packages/@babel/runtime/7.17.8.json",
+      "time" : {
+        "start" : 1648700008561,
+        "stop" : 1648700008561,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 40,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception Testing Library"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "626df9f147ef8ea1.json",
+  "parameterValues" : [ ]
+}

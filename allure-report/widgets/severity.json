@@ -1,0 +1,181 @@
+[ {
+  "uid" : "af90e1ec82bb77a2",
+  "name" : "GET User - Stubbed Response",
+  "time" : {
+    "start" : 1648657906613,
+    "stop" : 1648657923812,
+    "duration" : 17199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2885fe463816436f",
+  "name" : "Click the first book - Chai Assertions",
+  "time" : {
+    "start" : 1648637988791,
+    "stop" : 1648637994979,
+    "duration" : 6188
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f75b2b78af93f94d",
+  "name" : "Verify the header - testing Library - Fail Case",
+  "time" : {
+    "start" : 1648644518425,
+    "stop" : 1648644524818,
+    "duration" : 6393
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "668fee5d0864bf63",
+  "name" : "Verify the header - testing Library",
+  "time" : {
+    "start" : 1648644513497,
+    "stop" : 1648644518416,
+    "duration" : 4919
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33f92107a1bdae67",
+  "name" : "Article Validation - Stubbed Response",
+  "time" : {
+    "start" : 1648657128781,
+    "stop" : 1648657138284,
+    "duration" : 9503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4995e9ec20392394",
+  "name" : "GET Users - Stubbed Response",
+  "time" : {
+    "start" : 1648702015911,
+    "stop" : 1648702030441,
+    "duration" : 14530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cd7fab939c2600",
+  "name" : "Oops...we found an error preparing this test file: features/launch.feature",
+  "time" : {
+    "start" : 1648726621601,
+    "stop" : 1648726621601,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54f5c5cb09a67059",
+  "name" : "Verify the book detail",
+  "time" : {
+    "start" : 1648637985741,
+    "stop" : 1648637988763,
+    "duration" : 3022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cdb7f970baea8fa",
+  "name" : "Tags Validation - Actual response",
+  "time" : {
+    "start" : 1648650794438,
+    "stop" : 1648650802852,
+    "duration" : 8414
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b94f04e519f0c67",
+  "name" : "GET single User - Stubbed Response",
+  "time" : {
+    "start" : 1648702030671,
+    "stop" : 1648702041090,
+    "duration" : 10419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10fb5844b65478c3",
+  "name" : "Oops...we found an error preparing this test file: features/launch.feature",
+  "time" : {
+    "start" : 1648727148787,
+    "stop" : 1648727148787,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a458f86216c6dff0",
+  "name" : "GET User - Validate UI Stubbed Response",
+  "time" : {
+    "start" : 1648657350962,
+    "stop" : 1648657350964,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8989ca0fdf5dd896",
+  "name" : "Username testing",
+  "time" : {
+    "start" : 1648645761856,
+    "stop" : 1648645771029,
+    "duration" : 9173
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "44735337a7c99b1f",
+  "name" : "Tags testing",
+  "time" : {
+    "start" : 1648645771061,
+    "stop" : 1648645775331,
+    "duration" : 4270
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "11d615187d962f18",
+  "name" : "Launch the book store url",
+  "time" : {
+    "start" : 1648727366985,
+    "stop" : 1648727370436,
+    "duration" : 3451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41e9ca182eb12890",
+  "name" : "Launch the book page - Intercept Book Call",
+  "time" : {
+    "start" : 1648645618858,
+    "stop" : 1648645625039,
+    "duration" : 6181
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5208473b169fd164",
+  "name" : "Click the first book - Should Assertions",
+  "time" : {
+    "start" : 1648637994999,
+    "stop" : 1648637996465,
+    "duration" : 1466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c70e734bf40bf25",
+  "name" : "Article Validation - Stubbed Response",
+  "time" : {
+    "start" : 1648656392141,
+    "stop" : 1648656400816,
+    "duration" : 8675
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

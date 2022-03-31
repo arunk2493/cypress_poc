@@ -1,0 +1,244 @@
+{
+  "uid" : "11d615187d962f18",
+  "name" : "Launch the book store url",
+  "fullName" : "Launch the book store url",
+  "historyId" : "5d48e78dab5022e59f5024e23c88ea65",
+  "time" : {
+    "start" : 1648727366985,
+    "stop" : 1648727370436,
+    "duration" : 3451
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648727366989,
+        "stop" : 1648727366992,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given go to dandube book store url",
+      "time" : {
+        "start" : 1648727367031,
+        "stop" : 1648727370380,
+        "duration" : 3349
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://danube-webshop.herokuapp.com/",
+        "time" : {
+          "start" : 1648727367039,
+          "stop" : 1648727370373,
+          "duration" : 3334
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648727370373,
+          "stop" : 1648727370373,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648727370373,
+          "stop" : 1648727370373,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648727370373,
+          "stop" : 1648727370373,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /api/books",
+        "time" : {
+          "start" : 1648727370373,
+          "stop" : 1648727370373,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And verify the top seller label",
+      "time" : {
+        "start" : 1648727370379,
+        "stop" : 1648727370435,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .shop-content h2",
+        "time" : {
+          "start" : 1648727370381,
+          "stop" : 1648727370417,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains Top sellers",
+        "time" : {
+          "start" : 1648727370417,
+          "stop" : 1648727370433,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1648727370462,
+        "stop" : 1648727370465,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Launch Url"
+  }, {
+    "name" : "feature",
+    "value" : "Launch Url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "94abe3a12ff74639",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648726868607,
+        "stop" : 1648726871929,
+        "duration" : 3322
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "59c9424cb57ab9cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648726868607,
+          "stop" : 1648726871929,
+          "duration" : 3322
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "11d615187d962f18.json",
+  "parameterValues" : [ ]
+}

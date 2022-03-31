@@ -1,0 +1,245 @@
+{
+  "uid" : "41e9ca182eb12890",
+  "name" : "Launch the book page - Intercept Book Call",
+  "fullName" : "Launch the book page - Intercept Book Call",
+  "historyId" : "daae64899c90ede46a1978faf394482f",
+  "time" : {
+    "start" : 1648645618858,
+    "stop" : 1648645625039,
+    "duration" : 6181
+  },
+  "status" : "failed",
+  "statusMessage" : "A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/cypress/fixtures/books.json\n    > cypress/fixtures/cypress/fixtures/books.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.",
+  "statusTrace" : "Error: A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/cypress/fixtures/books.json\n    > cypress/fixtures/cypress/fixtures/books.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.\n    at Object.<anonymous> (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/lib/fixture.js:69:30)\n    at Object.tryCatcher (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:547:31)\n    at Promise._settlePromise (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:604:18)\n    at Promise._settlePromise0 (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:649:10)\n    at Promise._settlePromises (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:729:18)\n    at Promise._fulfill (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:673:18)\n    at /Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/nodeback.js:42:21\n    at f (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/once/once.js:25:25)\n    at Glob.<anonymous> (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:151:7)\n    at Glob.emit (node:events:394:28)\n    at Glob._finish (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:197:8)\n    at done (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:182:14)\n    at Glob._processSimple2 (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:688:12)\n    at /Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:676:10\n    at Glob._stat2 (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:772:12)\n    at lstatcb_ (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:764:12)\n    at RES (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/inflight/inflight.js:31:16)\n    at f (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/once/once.js:25:25)\n    at callback (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/graceful-fs/polyfills.js:299:20)\n    at FSReqCallback.oncomplete (node:fs:195:21)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/cypress/fixtures/books.json\n    > cypress/fixtures/cypress/fixtures/books.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.",
+    "statusTrace" : "Error: A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/cypress/fixtures/books.json\n    > cypress/fixtures/cypress/fixtures/books.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.\n    at Object.<anonymous> (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/lib/fixture.js:69:30)\n    at Object.tryCatcher (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:547:31)\n    at Promise._settlePromise (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:604:18)\n    at Promise._settlePromise0 (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:649:10)\n    at Promise._settlePromises (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:729:18)\n    at Promise._fulfill (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:673:18)\n    at /Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/nodeback.js:42:21\n    at f (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/once/once.js:25:25)\n    at Glob.<anonymous> (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:151:7)\n    at Glob.emit (node:events:394:28)\n    at Glob._finish (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:197:8)\n    at done (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:182:14)\n    at Glob._processSimple2 (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:688:12)\n    at /Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:676:10\n    at Glob._stat2 (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:772:12)\n    at lstatcb_ (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:764:12)\n    at RES (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/inflight/inflight.js:31:16)\n    at f (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/once/once.js:25:25)\n    at callback (/Users/arunkumarkumaraswamy/Library/Caches/Cypress/9.5.3/Cypress.app/Contents/Resources/app/node_modules/graceful-fs/polyfills.js:299:20)\n    at FSReqCallback.oncomplete (node:fs:195:21)\n",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648645618861,
+        "stop" : 1648645623917,
+        "duration" : 5056
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://danube-webshop.herokuapp.com/",
+        "time" : {
+          "start" : 1648645618908,
+          "stop" : 1648645623915,
+          "duration" : 5007
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-shims.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648645623915,
+          "stop" : 1648645623915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free-v4-font-face.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648645623915,
+          "stop" : 1648645623915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=1a858c55db",
+        "time" : {
+          "start" : 1648645623915,
+          "stop" : 1648645623915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /api/books",
+        "time" : {
+          "start" : 1648645623915,
+          "stop" : 1648645623915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "fixture cypress/fixtures/books.json",
+      "time" : {
+        "start" : 1648645623920,
+        "stop" : 1648645625037,
+        "duration" : 1117
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c8cb827c86f78474",
+      "name" : "basic-examples/interception-sample.spec.ts:2022-03-30T13:07:04.021Z",
+      "source" : "c8cb827c86f78474.png",
+      "type" : "image/png",
+      "size" : 515356
+    }, {
+      "uid" : "98071d837f4ecd4e",
+      "name" : "video recording",
+      "source" : "98071d837f4ecd4e.mp4",
+      "type" : "video/mp4",
+      "size" : 3006226
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8ebf5284dbc5f4e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected <div.preview-title> not to exist in the DOM, but it was continuously found.",
+      "time" : {
+        "start" : 1648645508754,
+        "stop" : 1648645516586,
+        "duration" : 7832
+      }
+    }, {
+      "uid" : "e9cc9f36cc0c8b65",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected <div.preview-title> not to exist in the DOM, but it was continuously found.",
+      "time" : {
+        "start" : 1648645457472,
+        "stop" : 1648645464967,
+        "duration" : 7495
+      }
+    }, {
+      "uid" : "c32bcbdf99131c44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648645145592,
+        "stop" : 1648645149928,
+        "duration" : 4336
+      }
+    }, {
+      "uid" : "a8b42c2f85fc5a35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648645096165,
+        "stop" : 1648645098773,
+        "duration" : 2608
+      }
+    }, {
+      "uid" : "d036f871b37ba865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648644912887,
+        "stop" : 1648644915364,
+        "duration" : 2477
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8fe422aeda169ad9",
+        "status" : "failed",
+        "statusDetails" : "A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/cypress/fixtures/books.json\n    > cypress/fixtures/cypress/fixtures/books.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.",
+        "time" : {
+          "start" : 1648645618858,
+          "stop" : 1648645625039,
+          "duration" : 6181
+        }
+      }, {
+        "uid" : "6b8dfdaf594b6abb",
+        "status" : "failed",
+        "statusDetails" : "A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/cypress/fixtures/books.json\n    > cypress/fixtures/cypress/fixtures/books.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.",
+        "time" : {
+          "start" : 1648645618858,
+          "stop" : 1648645625039,
+          "duration" : 6181
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "41e9ca182eb12890.json",
+  "parameterValues" : [ ]
+}

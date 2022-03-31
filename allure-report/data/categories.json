@@ -1,0 +1,219 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: expected 'Haben oder haben' to equal 'Haben haben'",
+      "children" : [ {
+        "name" : "Click the first book - Chai Assertions",
+        "uid" : "2885fe463816436f",
+        "parentUid" : "7d1ea09069e1ab2567b3f1e094960d0c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648637988791,
+          "stop" : 1648637994979,
+          "duration" : 6188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d1ea09069e1ab2567b3f1e094960d0c"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Unable to find an element with the text: Top selle. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, <script />, <style />\n<html>\n  <head>\n     \n    <meta\n      charset=\"utf-8\"\n    />\n    <meta\n      content=\"width=device-width,initial-scale=1\"\n      name=\"viewport\"\n    />\n    <title>\n      danube-store\n    </title>\n    <link\n      href=\"/static/favicon-round.png\"\n      rel=\"shortcut icon\"\n      type=\"image/png\"\n    />\n    <link\n      href=\"/static/css/app.170c518fd30e61cd11c4b17e7c98fd47.css\"\n      rel=\"stylesheet\"\n    />\n  </head>\n  <body>\n    <div\n      id=\"app\"\n    >\n      <div\n        id=\"top-special-offer\"\n      >\n        <h3>\n          \n      SPECIAL OFFER: 20% OFF BOOKS WITH \n          <i>\n            WORDS\n          </i>\n           IN THEM!!! LIMITED TIME\n      ONLY!\n    \n        </h3>\n      </div>\n       \n      <div\n        class=\"topbar\"\n        data-v-9a19ef14=\"\"\n      >\n        <a\n          data-v-9a19ef14=\"\"\n          href=\"/\"\n        >\n          <img\n            data-v-9a19ef14=\"\"\n            id=\"logo\"\n            src=\"static/logo-horizontal.svg\"\n          />\n        </a>\n         \n        <input\n          data-v-9a19ef14=\"\"\n          name=\"searchbar\"\n          type=\"text\"\n        />\n         \n        <button\n          data-v-9a19ef14=\"\"\n          id=\"button-search\"\n        >\n          Search\n        </button>\n         \n         \n        <p\n          data-v-9a19ef14=\"\"\n          id=\"clock\"\n        >\n          3:43pm 23/06/2002\n        </p>\n         \n        <div\n          class=\"account-buttons\"\n          data-v-9a19ef14=\"\"\n        >\n          <button\n            data-v-9a19ef14=\"\"\n            id=\"login\"\n          >\n            Log in\n          </button>\n           \n          <button\n            class=\"call-to-action\"\n            data-v-9a19ef14=\"\"\n            id=\"signup\"\n          >\n            Sign up\n          </button>\n           \n          <button\n            class=\"topbar-icon\"\n            data-v-9a19ef14=\"\"\n            id=\"cart\"\n          >\n            <i\n              aria-hidden=\"true\"\n              class=\"fas fa-shopping-cart\"\n              data-v-9a19ef14=\"\"\n            />\n          </button>\n           \n        </div>\n         \n         \n      </div>\n       \n      <hr />\n       \n      <div\n        id=\"app-content\"\n      >\n        <div\n          class=\"main-container\"\n        >\n          <div\n            class=\"shop\"\n            data-v-5ad54829=\"\"\n          >\n            <div\n              class=\"special-offer\"\n              data-v-5ad54829=\"\"\n            />\n             \n            <div\n              class=\"shop-content\"\n              data-v-5ad54829=\"\"\n            >\n              <h2\n                data-v-5ad54829=\"\"\n              >\n                Top sellers\n              </h2>\n               \n              <ul\n                data-v-5ad54829=\"\"\n              >\n                <li\n                  class=\"preview\"\n                  data-v-5ad54829=\"\"\n                >\n                  <div\n                    class=\"preview-title\"\n                    data-v-5ad54829=\"\"\n                  >\n                    Haben oder haben\n                  </div>\n                   \n                  <div\n                    class=\"preview-author\"\n                    data-v-5ad54829=\"\"\n                  >\n                    Fric Eromm\n                  </div>\n                   \n                  <div\n                    class=\"preview-details\"\n                    data-v-5ad54829=\"\"\n                  >\n                    <p\n                      class=\"preview-rating\"\n                      data-v-5ad54829=\"\"\n                    >\n                      ★★★★☆\n                    </p>\n                     \n                    <p\n                      class=\"preview-price\"\n                      data-v-5ad54829=\"\"\n                    >\n                      $9.95\n                    </p>\n                  </div>\n                </li>\n                <li\n                  class=\"preview\"\n                  data-v-5ad54829=\"\"\n                >\n                  <div\n                    class=\"preview-title\"\n                    data-v-5ad54829=\"\"\n                  >\n                    Parry Hotter\n                  </div>\n                   \n                  <div\n                    class=\"preview-author\"\n                    data-v-5ad54829=\"\"\n                  >\n                    J/K Rowlin'\n                  </div>\n                   \n                  <div\n                    class=\"preview-details\"\n                    data-v-5ad54829=\"\"\n                  >\n                    <p\n                      class=\"preview-rating\"\n                      data-v-5ad54829=\"\"\n                    >\n                      ★★★☆☆\n                    </p>\n                     \n                    <p\n                      class=\"preview-price\"\n                      data-v-5ad54829=\"\"\n                    >\n                      $9.95\n                    </p>\n                  </div>\n                </li>\n                <li\n                  class=\"preview\"\n                  data-v-5ad54829=\"\"\n                >\n                  <div\n                    class=\"preview-title\"\n                    data-v-5ad54829=\"\"\n                  >\n                    Laughterhouse-Five\n                  </div>\n                   \n                  <div\n                    class=\"preview-author\"\n                    data-v-5ad54829=\"\"\n                  >\n                    Truk Tugennov\n                  </div>\n                   \n                  <div\n                    class=\"preview-details\"\n                    data-v-5ad54829=\"\"\n                  >\n                    <p\n                      class=\"preview-rating\"\n                      data-v-5ad54829=\"\"\n                    >\n                      ★★★☆☆\n                    </p>\n                     \n                    <p\n                      class=\"preview-price\"\n                      data-v-5ad54829=\"\"\n                    >\n                      $9.95\n                    </p>\n                  </div>\n                </li>\n                <li\n                  class=\"preview\"\n                  data-v-5ad54829=\"\"\n                >\n                  <div\n                    class=\"preview-title\"\n                    data-v-5ad54829=\"\"\n                  >\n                    To Mock a Killingbird\n                  </div>\n                   \n                  <div\n                    class=\"preview-author\"\n                    data-v-5ad54829=\"\"\n                  >\n                    Larper Hee\n                  </div>\n                   \n                  <div\n                    class=\"preview-details\"\n                    data-v-5ad54829=\"\"\n                  >\n                    <p\n                      class=\"preview-rating\"\n                      data-v-5ad54829=\"\"\n                    >\n                      ★★☆☆☆\n                    </p>\n                     \n                    <p\n                      class=\"preview-price\"\n                      data-v-5ad54829=\"\"\n                    >\n                      $9.95\n                    </p>\n       ...",
+      "children" : [ {
+        "name" : "Verify the header - testing Library - Fail Case",
+        "uid" : "f75b2b78af93f94d",
+        "parentUid" : "d8ef9a0e2a15b3ab49a36206e704cd31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648644518425,
+          "stop" : 1648644524818,
+          "duration" : 6393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8ef9a0e2a15b3ab49a36206e704cd31"
+    }, {
+      "name" : "A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/cypress/fixtures/books.json\n    > cypress/fixtures/cypress/fixtures/books.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.",
+      "children" : [ {
+        "name" : "Launch the book page - Intercept Book Call",
+        "uid" : "41e9ca182eb12890",
+        "parentUid" : "fafdd96be69a3587aadf2c075ac1282b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648645618858,
+          "stop" : 1648645625039,
+          "duration" : 6181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fafdd96be69a3587aadf2c075ac1282b"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `a[href^=\"#@\"]`, but never found it.",
+      "children" : [ {
+        "name" : "Username testing",
+        "uid" : "8989ca0fdf5dd896",
+        "parentUid" : "9247da8cd83abf52713e3ebdb175c5cb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648645761856,
+          "stop" : 1648645771029,
+          "duration" : 9173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9247da8cd83abf52713e3ebdb175c5cb"
+    }, {
+      "name" : "An error was thrown while processing a network event: A fixture file could not be found at any of the following paths:\n\n    > cypress/fixtures/tags.json\n    > cypress/fixtures/tags.json.[ext]\n\nCypress looked for these file extensions at the provided path:\n\n    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip\n\nProvide a path to an existing fixture file.",
+      "children" : [ {
+        "name" : "Tags testing",
+        "uid" : "44735337a7c99b1f",
+        "parentUid" : "64c4f04122907d495be362cf8c21a203",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648645771061,
+          "stop" : 1648645775331,
+          "duration" : 4270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64c4f04122907d495be362cf8c21a203"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+      "children" : [ {
+        "name" : "Tags Validation - Actual response",
+        "uid" : "1cdb7f970baea8fa",
+        "parentUid" : "d72e394dd4df0cf8267a16558f7bac62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648650794438,
+          "stop" : 1648650802852,
+          "duration" : 8414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d72e394dd4df0cf8267a16558f7bac62"
+    }, {
+      "name" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `tag`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+      "children" : [ {
+        "name" : "Article Validation - Stubbed Response",
+        "uid" : "2c70e734bf40bf25",
+        "parentUid" : "58356e3e55b237a969865755feea3a73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648656392141,
+          "stop" : 1648656400816,
+          "duration" : 8675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 14,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58356e3e55b237a969865755feea3a73"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `/Users/arunkumarkumaraswamy/Documents/Study/Cypress/cypress_poc/cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+      "children" : [ {
+        "name" : "GET User - Validate UI Stubbed Response",
+        "uid" : "a458f86216c6dff0",
+        "parentUid" : "ec8679fc1e6eb93ef2f7d07536aff795",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648657350962,
+          "stop" : 1648657350964,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec8679fc1e6eb93ef2f7d07536aff795"
+    }, {
+      "name" : "Oops...we found an error preparing this test file:\n\n  > cypress/integration/features/launch.feature\n\n",
+      "children" : [ {
+        "name" : "Oops...we found an error preparing this test file: features/launch.feature",
+        "uid" : "8cd7fab939c2600",
+        "parentUid" : "3c83e00377e2996f850ab3b5ad498313",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648726621601,
+          "stop" : 1648726621601,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Oops...we found an error preparing this test file: features/launch.feature",
+        "uid" : "10fb5844b65478c3",
+        "parentUid" : "3c83e00377e2996f850ab3b5ad498313",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648727148787,
+          "stop" : 1648727148787,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c83e00377e2996f850ab3b5ad498313"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
