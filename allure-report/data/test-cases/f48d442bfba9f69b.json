@@ -1,0 +1,186 @@
+{
+  "uid" : "f48d442bfba9f69b",
+  "name" : "Tags Validation - Actual response",
+  "fullName" : "Tags Validation - Actual response",
+  "historyId" : "fdfe444bdfbf928d1d346e8fed7091e7",
+  "time" : {
+    "start" : 1648650592886,
+    "stop" : 1648650602394,
+    "duration" : 9508
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:103:44)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:103:44)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648650592889,
+        "stop" : 1648650597444,
+        "duration" : 4555
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "intercept (\"GET\"; \"https://api.realworld.io/api/tags\"; \"{ fixture: 'tags.json' }\")",
+        "time" : {
+          "start" : 1648650592980,
+          "stop" : 1648650593031,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"GET\"; \"https://conduit.productionready.io/api/articles?limit=10&offset=0\"; \"{ fixture: 'articles.json' }\")",
+        "time" : {
+          "start" : 1648650593032,
+          "stop" : 1648650593043,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648650593043,
+          "stop" : 1648650597443,
+          "duration" : 4400
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1648650597442,
+          "stop" : 1648650597442,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1648650597442,
+          "stop" : 1648650597442,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .tag-list a:nth-child(1)",
+      "time" : {
+        "start" : 1648650597447,
+        "stop" : 1648650602393,
+        "duration" : 4946
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **.tag-list a:nth-child(1)** to contain text **welcome**, but the text was **''**",
+      "time" : {
+        "start" : 1648650602392,
+        "stop" : 1648650602393,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "welcome"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fc7c6fb4fb502184",
+      "name" : "basic-examples/interception-sample.spec.ts:2022-03-30T14:30:01.485Z",
+      "source" : "fc7c6fb4fb502184.png",
+      "type" : "image/png",
+      "size" : 474705
+    }, {
+      "uid" : "3879e1c841fad500",
+      "name" : "video recording",
+      "source" : "3879e1c841fad500.mp4",
+      "type" : "video/mp4",
+      "size" : 3073220
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f48d442bfba9f69b.json",
+  "parameterValues" : [ ]
+}

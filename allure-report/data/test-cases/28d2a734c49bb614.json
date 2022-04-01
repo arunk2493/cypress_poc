@@ -1,0 +1,57 @@
+{
+  "uid" : "28d2a734c49bb614",
+  "name" : "Article Validation - Stubbed Response",
+  "fullName" : "Article Validation - Stubbed Response",
+  "historyId" : "f38630555b5c5191e1cba42ed301c597",
+  "time" : {
+    "start" : 1648650429014,
+    "stop" : 1648650429015,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://api.realworld.io/\n\nThe `content-type` of the response we received from your web server was:\n\n  > `application/json`\n\nThis was considered a failure because responses must have `content-type: 'text/html'`\n\nHowever, you can likely use `cy.request()` instead of `cy.visit()`.\n\n`cy.request()` will automatically get and set cookies and enable you to parse responses.",
+  "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://api.realworld.io/\n\nThe `content-type` of the response we received from your web server was:\n\n  > `application/json`\n\nThis was considered a failure because responses must have `content-type: 'text/html'`\n\nHowever, you can likely use `cy.request()` instead of `cy.visit()`.\n\n`cy.request()` will automatically get and set cookies and enable you to parse responses.\n    at http://localhost:60781/__cypress/runner/cypress_runner.js:159302:84\n    at visitFailedByErr (http://localhost:60781/__cypress/runner/cypress_runner.js:158668:12)\n    at http://localhost:60781/__cypress/runner/cypress_runner.js:159282:13\n    at tryCatcher (http://localhost:60781/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (http://localhost:60781/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (http://localhost:60781/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (http://localhost:60781/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (http://localhost:60781/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (http://localhost:60781/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (http://localhost:60781/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:60781/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (http://localhost:60781/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:60781/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:100:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://api.realworld.io/\n\nThe `content-type` of the response we received from your web server was:\n\n  > `application/json`\n\nThis was considered a failure because responses must have `content-type: 'text/html'`\n\nHowever, you can likely use `cy.request()` instead of `cy.visit()`.\n\n`cy.request()` will automatically get and set cookies and enable you to parse responses.",
+    "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://api.realworld.io/\n\nThe `content-type` of the response we received from your web server was:\n\n  > `application/json`\n\nThis was considered a failure because responses must have `content-type: 'text/html'`\n\nHowever, you can likely use `cy.request()` instead of `cy.visit()`.\n\n`cy.request()` will automatically get and set cookies and enable you to parse responses.\n    at http://localhost:60781/__cypress/runner/cypress_runner.js:159302:84\n    at visitFailedByErr (http://localhost:60781/__cypress/runner/cypress_runner.js:158668:12)\n    at http://localhost:60781/__cypress/runner/cypress_runner.js:159282:13\n    at tryCatcher (http://localhost:60781/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (http://localhost:60781/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (http://localhost:60781/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (http://localhost:60781/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (http://localhost:60781/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (http://localhost:60781/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (http://localhost:60781/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:60781/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (http://localhost:60781/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:60781/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:100:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "10e65110d61ffc57",
+      "name" : "video recording",
+      "source" : "10e65110d61ffc57.mp4",
+      "type" : "video/mp4",
+      "size" : 1404941
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28d2a734c49bb614.json",
+  "parameterValues" : [ ]
+}

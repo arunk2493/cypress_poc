@@ -1,0 +1,238 @@
+{
+  "uid" : "4b2463eb7b19105b",
+  "name" : "Login with the user",
+  "fullName" : "Login with the user",
+  "historyId" : "02f61c302bc602adb89998ce0c9e6ad7",
+  "time" : {
+    "start" : 1648744933323,
+    "stop" : 1648744989077,
+    "duration" : 55754
+  },
+  "status" : "failed",
+  "statusMessage" : "Cypress command timeout of `4000ms` exceeded.",
+  "statusTrace" : "CypressError: Cypress command timeout of `4000ms` exceeded.\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:178196:80",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Cypress command timeout of `4000ms` exceeded.",
+    "statusTrace" : "CypressError: Cypress command timeout of `4000ms` exceeded.\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:178196:80",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648744933327,
+        "stop" : 1648744933329,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given go to conduit url",
+      "time" : {
+        "start" : 1648744933344,
+        "stop" : 1648744984245,
+        "duration" : 50901
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648744933345,
+          "stop" : 1648744984245,
+          "duration" : 50900
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1648744984253,
+        "stop" : 1648744989077,
+        "duration" : 4824
+      },
+      "status" : "failed",
+      "statusMessage" : "Cypress command timeout of `4000ms` exceeded.",
+      "statusTrace" : "CypressError: Cypress command timeout of `4000ms` exceeded.\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:178196:80",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "da19da8665e4ec77",
+      "name" : "features/loadurl.feature:2022-03-31T16:43:03.455Z",
+      "source" : "da19da8665e4ec77.png",
+      "type" : "image/png",
+      "size" : 254946
+    }, {
+      "uid" : "94d6677126766a05",
+      "name" : "features/loadurl.feature:2022-03-31T16:43:08.324Z",
+      "source" : "94d6677126766a05.png",
+      "type" : "image/png",
+      "size" : 255236
+    }, {
+      "uid" : "fddc82cb5618b7e0",
+      "name" : "video recording",
+      "source" : "fddc82cb5618b7e0.mp4",
+      "type" : "video/mp4",
+      "size" : 7907356
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "feature",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fdd8adde3e550d3a",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Unable to find an element with the text: Arunk24. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, <script />, <style />\n<html>\n  <head>\n     \n    \n  \n    <meta\n      charset=\"utf-8\"\n    />\n    \n  \n    <title>\n      Conduit\n    </title>\n    \n  \n    <base\n      href=\"./\"\n    />\n    \n  \n    <meta\n      content=\"width=device-width, initial-scale=1\"\n      name=\"viewport\"\n    />\n    \n  \n    <link\n      href=\"//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css\"\n      rel=\"stylesheet\"\n      type=\"text/css\"\n    />\n    \n  \n    <link\n      href=\"//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic\"\n      rel=\"stylesheet\"\n      type=\"text/css\"\n    />\n    \n  \n    <link\n      href=\"//demo.productionready.io/main.css\"\n      rel=\"stylesheet\"\n    />\n    \n\n\n    <link\n      href=\"styles.3ff695c00d717f2d2a11.css\"\n      rel=\"stylesheet\"\n    />\n  </head>\n  \n\n  <body>\n    \n  \n    <app-root\n      ng-version=\"7.2.4\"\n    >\n      <app-layout-header>\n        <nav\n          class=\"navbar navbar-light\"\n        >\n          <div\n            class=\"container\"\n          >\n            <a\n              class=\"navbar-brand\"\n              href=\"/\"\n              routerlink=\"/\"\n            >\n              conduit\n            </a>\n            <ul\n              class=\"nav navbar-nav pull-xs-right\"\n            >\n              <li\n                class=\"nav-item\"\n              >\n                <a\n                  class=\"nav-link\"\n                  href=\"/\"\n                  routerlink=\"/\"\n                >\n                   Home \n                </a>\n              </li>\n              <li\n                class=\"nav-item\"\n              >\n                <a\n                  class=\"nav-link active\"\n                  href=\"/login\"\n                  routerlink=\"/login\"\n                  routerlinkactive=\"active\"\n                >\n                   Sign in \n                </a>\n              </li>\n              <li\n                class=\"nav-item\"\n              >\n                <a\n                  class=\"nav-link\"\n                  href=\"/register\"\n                  routerlink=\"/register\"\n                  routerlinkactive=\"active\"\n                >\n                   Sign up \n                </a>\n              </li>\n            </ul>\n          </div>\n        </nav>\n      </app-layout-header>\n      <router-outlet />\n      <app-auth-page>\n        <div\n          class=\"auth-page\"\n        >\n          <div\n            class=\"container page\"\n          >\n            <div\n              class=\"row\"\n            >\n              <div\n                class=\"col-md-6 offset-md-3 col-xs-12\"\n              >\n                <h1\n                  class=\"text-xs-center\"\n                >\n                  Sign in\n                </h1>\n                <p\n                  class=\"text-xs-center\"\n                >\n                  <a\n                    href=\"/register\"\n                  >\n                    Need an account?\n                  </a>\n                </p>\n                <app-list-errors>\n                  <ul\n                    class=\"error-messages\"\n                  />\n                </app-list-errors>\n                <form\n                  class=\"ng-dirty ng-touched ng-valid\"\n                  novalidate=\"\"\n                >\n                  <fieldset>\n                    <fieldset\n                      class=\"form-group\"\n                    />\n                    <fieldset\n                      class=\"form-group\"\n                    >\n                      <input\n                        class=\"form-control form-control-lg ng-dirty ng-valid ng-touched\"\n                        formcontrolname=\"email\"\n                        placeholder=\"Email\"\n                        type=\"text\"\n                      />\n                    </fieldset>\n                    <fieldset\n                      class=\"form-group\"\n                    >\n                      <input\n                        class=\"form-control form-control-lg ng-untouched ng-dirty ng-valid\"\n                        formcontrolname=\"password\"\n                        placeholder=\"Password\"\n                        type=\"password\"\n                      />\n                    </fieldset>\n                    <button\n                      class=\"btn btn-lg btn-primary pull-xs-right\"\n                      type=\"submit\"\n                    >\n                       Sign in \n                    </button>\n                  </fieldset>\n                </form>\n              </div>\n            </div>\n          </div>\n        </div>\n      </app-auth-page>\n      <app-layout-footer>\n        <footer>\n          <div\n            class=\"container\"\n          >\n            <a\n              class=\"logo-font\"\n              href=\"/\"\n              routerlink=\"/\"\n            >\n              conduit\n            </a>\n            <span\n              class=\"attribution\"\n            >\n               © 2022. An interactive learning project from \n              <a\n                href=\"https://thinkster.io\"\n              >\n                Thinkster\n              </a>\n              . Code licensed under MIT. \n            </span>\n          </div>\n        </footer>\n      </app-layout-footer>\n    </app-root>\n    \n\n    \n\n\n  </body>\n</html>",
+      "time" : {
+        "start" : 1648744637770,
+        "stop" : 1648744647238,
+        "duration" : 9468
+      }
+    }, {
+      "uid" : "3046d1bdebe9007d",
+      "status" : "failed",
+      "statusDetails" : "Cannot read properties of undefined (reading 'rawTable')",
+      "time" : {
+        "start" : 1648744544642,
+        "stop" : 1648744549191,
+        "duration" : 4549
+      }
+    }, {
+      "uid" : "45b5654d79c5d407",
+      "status" : "failed",
+      "statusDetails" : "Cannot read properties of undefined (reading 'rawTable')",
+      "time" : {
+        "start" : 1648744486190,
+        "stop" : 1648744490314,
+        "duration" : 4124
+      }
+    }, {
+      "uid" : "144c9703833b6489",
+      "status" : "failed",
+      "statusDetails" : "Cypress command timeout of `4000ms` exceeded.",
+      "time" : {
+        "start" : 1648742329130,
+        "stop" : 1648742389949,
+        "duration" : 60819
+      }
+    }, {
+      "uid" : "a23d65d5c421e89f",
+      "status" : "failed",
+      "statusDetails" : "Cypress command timeout of `4000ms` exceeded.",
+      "time" : {
+        "start" : 1648742233070,
+        "stop" : 1648742273742,
+        "duration" : 40672
+      }
+    }, {
+      "uid" : "2a9afbfdcb491582",
+      "status" : "failed",
+      "statusDetails" : "Cypress command timeout of `4000ms` exceeded.",
+      "time" : {
+        "start" : 1648741842539,
+        "stop" : 1648741883172,
+        "duration" : 40633
+      }
+    }, {
+      "uid" : "39450e4910a27762",
+      "status" : "failed",
+      "statusDetails" : "Cypress command timeout of `4000ms` exceeded.",
+      "time" : {
+        "start" : 1648741753154,
+        "stop" : 1648741793942,
+        "duration" : 40788
+      }
+    }, {
+      "uid" : "e59cb2b13d54684c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648739608097,
+        "stop" : 1648739611610,
+        "duration" : 3513
+      }
+    }, {
+      "uid" : "84de8566c93b92e0",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: verify the conduit header",
+      "time" : {
+        "start" : 1648739508240,
+        "stop" : 1648739513061,
+        "duration" : 4821
+      }
+    }, {
+      "uid" : "27f354968afb1618",
+      "status" : "failed",
+      "statusDetails" : "Step implementation missing for: verify the conduit header",
+      "time" : {
+        "start" : 1648739442009,
+        "stop" : 1648739445927,
+        "duration" : 3918
+      }
+    }, {
+      "uid" : "e16aea95e8fafb43",
+      "status" : "failed",
+      "statusDetails" : "Cypress command timeout of `4000ms` exceeded.",
+      "time" : {
+        "start" : 1648739049193,
+        "stop" : 1648739087727,
+        "duration" : 38534
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b2463eb7b19105b.json",
+  "parameterValues" : [ ]
+}

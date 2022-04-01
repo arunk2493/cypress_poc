@@ -1,0 +1,258 @@
+{
+  "uid" : "45b7c9b3240ffd67",
+  "name" : "Article Validation - Stubbed Response",
+  "fullName" : "Article Validation - Stubbed Response",
+  "historyId" : "f38630555b5c5191e1cba42ed301c597",
+  "time" : {
+    "start" : 1648655049475,
+    "stop" : 1648655057409,
+    "duration" : 7934
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '[ <div.article-preview>, 1 more... ]' to have text 'Create a new implementation', but the text was ' Gerome  November 24, 2021  1629 Create a new implementationjoin the community by creating a new implementationRead more... implementations  Gerome  November 24, 2021  1051 Explore implementationsdiscover the implementations created by the RealWorld communityRead more... codebaseShow  implementations '",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '[ <div.article-preview>, 1 more... ]' to have text 'Create a new implementation', but the text was ' Gerome  November 24, 2021  1629 Create a new implementationjoin the community by creating a new implementationRead more... implementations  Gerome  November 24, 2021  1051 Explore implementationsdiscover the implementations created by the RealWorld communityRead more... codebaseShow  implementations '\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:106:43)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '[ <div.article-preview>, 1 more... ]' to have text 'Create a new implementation', but the text was ' Gerome  November 24, 2021  1629 Create a new implementationjoin the community by creating a new implementationRead more... implementations  Gerome  November 24, 2021  1051 Explore implementationsdiscover the implementations created by the RealWorld communityRead more... codebaseShow  implementations '",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '[ <div.article-preview>, 1 more... ]' to have text 'Create a new implementation', but the text was ' Gerome  November 24, 2021  1629 Create a new implementationjoin the community by creating a new implementationRead more... implementations  Gerome  November 24, 2021  1051 Explore implementationsdiscover the implementations created by the RealWorld communityRead more... codebaseShow  implementations '\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:106:43)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648655049477,
+        "stop" : 1648655052402,
+        "duration" : 2925
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "intercept (\"GET\"; \"**/api/tags\")",
+        "time" : {
+          "start" : 1648655049510,
+          "stop" : 1648655049526,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"GET\"; \"**/api/tags\"; \"{ fixture: 'tags.json' }\")",
+        "time" : {
+          "start" : 1648655049527,
+          "stop" : 1648655049550,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"tag\")",
+        "time" : {
+          "start" : 1648655049550,
+          "stop" : 1648655049553,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"GET\"; \"**/articles*\"; \"{ fixture: 'articles.json' }\")",
+        "time" : {
+          "start" : 1648655049553,
+          "stop" : 1648655049595,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648655049595,
+          "stop" : 1648655052396,
+          "duration" : 2801
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1648655052394,
+          "stop" : 1648655052394,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1648655052394,
+          "stop" : 1648655052394,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "wait @tag",
+      "time" : {
+        "start" : 1648655052407,
+        "stop" : 1648655052421,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .tag-list>a",
+      "time" : {
+        "start" : 1648655052424,
+        "stop" : 1648655052482,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **'[ <a.tag-default.tag-pill>, 3 more... ]'** to contain text **'welcome'**",
+      "time" : {
+        "start" : 1648655052482,
+        "stop" : 1648655052482,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get div.article-preview",
+      "time" : {
+        "start" : 1648655052482,
+        "stop" : 1648655057406,
+        "duration" : 4924
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **[ <div.article-preview>, 1 more... ]** to have text **Create a new implementation**, but the text was ** Gerome  November 24, 2021  1629 Create a new implementationjoin the community by creating a new implementationRead more... implementations  Gerome  November 24, 2021  1051 Explore implementationsdiscover the implementations created by the RealWorld communityRead more... codebaseShow  implementations **",
+      "time" : {
+        "start" : 1648655057406,
+        "stop" : 1648655057406,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "33c04e748137c683",
+      "name" : "basic-examples/interception-sample.spec.ts:2022-03-30T15:44:16.524Z",
+      "source" : "33c04e748137c683.png",
+      "type" : "image/png",
+      "size" : 581178
+    }, {
+      "uid" : "c60a1f39ac3d6b3e",
+      "name" : "video recording",
+      "source" : "c60a1f39ac3d6b3e.mp4",
+      "type" : "video/mp4",
+      "size" : 3544879
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45b7c9b3240ffd67.json",
+  "parameterValues" : [ ]
+}

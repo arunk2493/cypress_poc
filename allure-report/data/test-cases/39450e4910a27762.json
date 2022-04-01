@@ -1,0 +1,140 @@
+{
+  "uid" : "39450e4910a27762",
+  "name" : "Login with the user",
+  "fullName" : "Login with the user",
+  "historyId" : "02f61c302bc602adb89998ce0c9e6ad7",
+  "time" : {
+    "start" : 1648741753154,
+    "stop" : 1648741793942,
+    "duration" : 40788
+  },
+  "status" : "failed",
+  "statusMessage" : "Cypress command timeout of `4000ms` exceeded.",
+  "statusTrace" : "CypressError: Cypress command timeout of `4000ms` exceeded.\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:178196:80",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Cypress command timeout of `4000ms` exceeded.",
+    "statusTrace" : "CypressError: Cypress command timeout of `4000ms` exceeded.\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:178196:80",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648741753161,
+        "stop" : 1648741753164,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given go to conduit url",
+      "time" : {
+        "start" : 1648741753192,
+        "stop" : 1648741784118,
+        "duration" : 30926
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648741753194,
+          "stop" : 1648741784118,
+          "duration" : 30924
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1648741784122,
+        "stop" : 1648741789011,
+        "duration" : 4889
+      },
+      "status" : "failed",
+      "statusMessage" : "Cypress command timeout of `4000ms` exceeded.",
+      "statusTrace" : "CypressError: Cypress command timeout of `4000ms` exceeded.\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:178196:80",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2a55e5b67052e24a",
+      "name" : "features/loadurl.feature:2022-03-31T15:49:43.323Z",
+      "source" : "2a55e5b67052e24a.png",
+      "type" : "image/png",
+      "size" : 248008
+    }, {
+      "uid" : "12dc10f07842c277",
+      "name" : "features/loadurl.feature:2022-03-31T15:49:48.242Z",
+      "source" : "12dc10f07842c277.png",
+      "type" : "image/png",
+      "size" : 247843
+    }, {
+      "uid" : "4ca54d9cc769feec",
+      "name" : "features/loadurl.feature:2022-03-31T15:49:53.092Z",
+      "source" : "4ca54d9cc769feec.png",
+      "type" : "image/png",
+      "size" : 248308
+    }, {
+      "uid" : "84d4fe9045e56668",
+      "name" : "video recording",
+      "source" : "84d4fe9045e56668.mp4",
+      "type" : "video/mp4",
+      "size" : 6859209
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "feature",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39450e4910a27762.json",
+  "parameterValues" : [ ]
+}

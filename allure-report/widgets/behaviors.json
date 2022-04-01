@@ -1,8 +1,41 @@
 {
-  "total" : 18,
+  "total" : 26,
   "items" : [ {
+    "uid" : "5b94c81683231847049a0b7337837dec",
+    "name" : "Conduit Webpage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "caa108b0c17838f705fc986fb0b4db71",
+    "name" : "Conduit Store Basics",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "d9269bea0e9ff730fb29641dcf5f47d9",
     "name" : "Launch Url",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "824a61fec143335b603beeea813c1ddf",
+    "name" : "SnipCart Website Local",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

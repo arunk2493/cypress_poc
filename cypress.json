@@ -2,7 +2,7 @@
   "projectId": "yuhg24",
   "video": true,
   "screenshotOnRunFailure": true,
-  "pageLoadTimeout": 30000,
+  "pageLoadTimeout": 50000,
   "chromeWebSecurity": false,
-  "testFiles": "**/*.feature"
+  "testFiles": "**/*.*"
 }

@@ -1,0 +1,591 @@
+{
+  "uid" : "c70d56b929426182",
+  "name" : "Add an item to the cart",
+  "fullName" : "Add an item to the cart",
+  "historyId" : "896e1f562f8686d6ef9b300c18060a8a",
+  "time" : {
+    "start" : 1648789310564,
+    "stop" : 1648789318605,
+    "duration" : 8041
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `Snipcart Logo Sticker`, but never found it. Queried from element: <h1>",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `Snipcart Logo Sticker`, but never found it. Queried from element: <h1>\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/features/snipcart.feature:39:44)\n    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/features/snipcart.feature:12293:29)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/features/snipcart.feature:11614:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `Snipcart Logo Sticker`, but never found it. Queried from element: <h1>",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `Snipcart Logo Sticker`, but never found it. Queried from element: <h1>\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/features/snipcart.feature:39:44)\n    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/features/snipcart.feature:12293:29)\n    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/features/snipcart.feature:11614:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648789310568,
+        "stop" : 1648789310569,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given go to snipcart local env",
+      "time" : {
+        "start" : 1648789310589,
+        "stop" : 1648789312519,
+        "duration" : 1930
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit http://localhost:3000/",
+        "time" : {
+          "start" : 1648789310591,
+          "stop" : 1648789312510,
+          "duration" : 1919
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://app.snipcart.com/api/sessions",
+        "time" : {
+          "start" : 1648789312510,
+          "stop" : 1648789312510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.snipcart.com/themes/v3.3.1/l10n/en.json",
+        "time" : {
+          "start" : 1648789312510,
+          "stop" : 1648789312510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /_next/static/development/_devPagesManifest.json",
+        "time" : {
+          "start" : 1648789312510,
+          "stop" : 1648789312510,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And set the viewport of the window",
+      "time" : {
+        "start" : 1648789312518,
+        "stop" : 1648789312533,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "viewport 1792, 522",
+        "time" : {
+          "start" : 1648789312520,
+          "stop" : 1648789312526,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then verify the snipcart header",
+      "time" : {
+        "start" : 1648789312533,
+        "stop" : 1648789312599,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findAllByText Snipcart Store",
+        "time" : {
+          "start" : 1648789312534,
+          "stop" : 1648789312595,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <title>, 1 more... ]** to exist in the DOM",
+        "time" : {
+          "start" : 1648789312594,
+          "stop" : 1648789312594,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "[ <title>, 1 more... ]"
+        }, {
+          "name" : "expected",
+          "value" : "[ <title>, 1 more... ]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given the lands on the items page",
+      "time" : {
+        "start" : 1648789312599,
+        "stop" : 1648789312643,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Snipcart Logo Sticker",
+        "time" : {
+          "start" : 1648789312601,
+          "stop" : 1648789312619,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789312619,
+          "stop" : 1648789312619,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h3>"
+        }, {
+          "name" : "expected",
+          "value" : "<h3>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "findByText Snipcart Logo Sticker Pack",
+        "time" : {
+          "start" : 1648789312619,
+          "stop" : 1648789312638,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789312638,
+          "stop" : 1648789312638,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h3>"
+        }, {
+          "name" : "expected",
+          "value" : "<h3>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And click on the first product",
+      "time" : {
+        "start" : 1648789312643,
+        "stop" : 1648789312824,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Snipcart Logo Sticker",
+        "time" : {
+          "start" : 1648789312646,
+          "stop" : 1648789312660,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789312660,
+          "stop" : 1648789312660,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h3>"
+        }, {
+          "name" : "expected",
+          "value" : "<h3>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1648789312660,
+          "stop" : 1648789312821,
+          "duration" : 161
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And click on the add cart button",
+      "time" : {
+        "start" : 1648789312824,
+        "stop" : 1648789314213,
+        "duration" : 1389
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Add to Cart",
+        "time" : {
+          "start" : 1648789312827,
+          "stop" : 1648789314079,
+          "duration" : 1252
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<button.snipcart-add-item>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789314078,
+          "stop" : 1648789314079,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<button.snipcart-add-item>"
+        }, {
+          "name" : "expected",
+          "value" : "<button.snipcart-add-item>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET 200 /_next/data/development/products/sticker_logo.json",
+        "time" : {
+          "start" : 1648789314079,
+          "stop" : 1648789314079,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url http://localhost:3000/products/sticker_logo",
+        "time" : {
+          "start" : 1648789314079,
+          "stop" : 1648789314079,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1648789314079,
+          "stop" : 1648789314206,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://app.snipcart.com/api/cart",
+        "time" : {
+          "start" : 1648789314206,
+          "stop" : 1648789314206,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url http://localhost:3000/products/sticker_logo#/cart",
+        "time" : {
+          "start" : 1648789314206,
+          "stop" : 1648789314206,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And check the cart summary with below details",
+      "time" : {
+        "start" : 1648789314213,
+        "stop" : 1648789318604,
+        "duration" : 4391
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "findByText Snipcart Logo Sticker",
+        "time" : {
+          "start" : 1648789314214,
+          "stop" : 1648789314223,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "eq Snipcart Logo Sticker",
+        "time" : {
+          "start" : 1648789314223,
+          "stop" : 1648789318604,
+          "duration" : 4381
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://app.snipcart.com/api/cart/a801eaac-cb2e-43a8-9ac2-c157b9b51bef/items",
+        "time" : {
+          "start" : 1648789318604,
+          "stop" : 1648789318604,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1648789318606,
+        "stop" : 1648789318607,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "de270bd5c9c701c3",
+      "name" : "features/snipcart.feature:2022-04-01T05:01:58.239Z",
+      "source" : "de270bd5c9c701c3.png",
+      "type" : "image/png",
+      "size" : 477715
+    }, {
+      "uid" : "6248e5daaf05fae5",
+      "name" : "video recording",
+      "source" : "6248e5daaf05fae5.mp4",
+      "type" : "video/mp4",
+      "size" : 3771567
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 33,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "SnipCart Website Local"
+  }, {
+    "name" : "feature",
+    "value" : "SnipCart Website Local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c70d56b929426182.json",
+  "parameterValues" : [ ]
+}

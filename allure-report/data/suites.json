@@ -4,7 +4,7 @@
     "name" : "Book Store",
     "children" : [ {
       "name" : "Verify the book detail",
-      "uid" : "54f5c5cb09a67059",
+      "uid" : "c5274288638c0be9",
       "parentUid" : "3f2bfe45906d07ca7b200f5874cf9b61",
       "status" : "passed",
       "time" : {
@@ -21,7 +21,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Click the first book - Chai Assertions",
-      "uid" : "2885fe463816436f",
+      "uid" : "23291590ecfa69b4",
       "parentUid" : "3f2bfe45906d07ca7b200f5874cf9b61",
       "status" : "failed",
       "time" : {
@@ -38,7 +38,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Click the first book - Should Assertions",
-      "uid" : "5208473b169fd164",
+      "uid" : "e7be93b453b59a7a",
       "parentUid" : "3f2bfe45906d07ca7b200f5874cf9b61",
       "status" : "passed",
       "time" : {
@@ -55,36 +55,36 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify the header - testing Library",
-      "uid" : "668fee5d0864bf63",
+      "uid" : "53c41d9a3f2384ac",
       "parentUid" : "3f2bfe45906d07ca7b200f5874cf9b61",
       "status" : "passed",
       "time" : {
-        "start" : 1648644513497,
-        "stop" : 1648644518416,
-        "duration" : 4919
+        "start" : 1648733127923,
+        "stop" : 1648733131978,
+        "duration" : 4055
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 3,
+      "retriesCount" : 4,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify the header - testing Library - Fail Case",
-      "uid" : "f75b2b78af93f94d",
+      "uid" : "db36cbecb85ebef8",
       "parentUid" : "3f2bfe45906d07ca7b200f5874cf9b61",
       "status" : "failed",
       "time" : {
-        "start" : 1648644518425,
-        "stop" : 1648644524818,
-        "duration" : 6393
+        "start" : 1648733132032,
+        "stop" : 1648733138790,
+        "duration" : 6758
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 0,
+      "retriesCount" : 1,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
@@ -93,7 +93,7 @@
     "name" : "Book Store Interception",
     "children" : [ {
       "name" : "Launch the book page - Intercept Book Call",
-      "uid" : "41e9ca182eb12890",
+      "uid" : "a8d3ebf3a88bab2",
       "parentUid" : "d602f8bc534b947c75dda993785c3a6e",
       "status" : "failed",
       "time" : {
@@ -110,7 +110,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Username testing",
-      "uid" : "8989ca0fdf5dd896",
+      "uid" : "473ec7e4600fb39b",
       "parentUid" : "d602f8bc534b947c75dda993785c3a6e",
       "status" : "failed",
       "time" : {
@@ -127,7 +127,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Tags testing",
-      "uid" : "44735337a7c99b1f",
+      "uid" : "22c4e5ce808d4ea6",
       "parentUid" : "d602f8bc534b947c75dda993785c3a6e",
       "status" : "failed",
       "time" : {
@@ -144,7 +144,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Tags Validation - Actual response",
-      "uid" : "1cdb7f970baea8fa",
+      "uid" : "2e0d69c96fc9bd79",
       "parentUid" : "d602f8bc534b947c75dda993785c3a6e",
       "status" : "failed",
       "time" : {
@@ -161,7 +161,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Article Validation - Stubbed Response",
-      "uid" : "2c70e734bf40bf25",
+      "uid" : "a32ebac8bbe7c674",
       "parentUid" : "d602f8bc534b947c75dda993785c3a6e",
       "status" : "failed",
       "time" : {
@@ -182,7 +182,7 @@
     "name" : "Book Store Interception Testing Library",
     "children" : [ {
       "name" : "Article Validation - Stubbed Response",
-      "uid" : "33f92107a1bdae67",
+      "uid" : "eec36af843731feb",
       "parentUid" : "aea0c6656cc646abf7eeb63b71b0657f",
       "status" : "passed",
       "time" : {
@@ -199,7 +199,7 @@
       "parameters" : [ ]
     }, {
       "name" : "GET User - Validate UI Stubbed Response",
-      "uid" : "a458f86216c6dff0",
+      "uid" : "a4531189d6c027",
       "parentUid" : "aea0c6656cc646abf7eeb63b71b0657f",
       "status" : "broken",
       "time" : {
@@ -216,7 +216,7 @@
       "parameters" : [ ]
     }, {
       "name" : "GET User - Stubbed Response",
-      "uid" : "af90e1ec82bb77a2",
+      "uid" : "ac56c61c59cbd47f",
       "parentUid" : "aea0c6656cc646abf7eeb63b71b0657f",
       "status" : "passed",
       "time" : {
@@ -233,7 +233,7 @@
       "parameters" : [ ]
     }, {
       "name" : "GET Users - Stubbed Response",
-      "uid" : "4995e9ec20392394",
+      "uid" : "3fca6cdf60d7c11b",
       "parentUid" : "aea0c6656cc646abf7eeb63b71b0657f",
       "status" : "passed",
       "time" : {
@@ -250,7 +250,7 @@
       "parameters" : [ ]
     }, {
       "name" : "GET single User - Stubbed Response",
-      "uid" : "9b94f04e519f0c67",
+      "uid" : "5076d06b315ac17a",
       "parentUid" : "aea0c6656cc646abf7eeb63b71b0657f",
       "status" : "passed",
       "time" : {
@@ -271,7 +271,7 @@
     "name" : "features/launch.feature",
     "children" : [ {
       "name" : "Oops...we found an error preparing this test file: features/launch.feature",
-      "uid" : "8cd7fab939c2600",
+      "uid" : "f0665c3a387b14cf",
       "parentUid" : "0a47927adab14f127631ee8fedcb35d0",
       "status" : "broken",
       "time" : {
@@ -288,7 +288,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Oops...we found an error preparing this test file: features/launch.feature",
-      "uid" : "10fb5844b65478c3",
+      "uid" : "6afc9dc01ff958cc",
       "parentUid" : "0a47927adab14f127631ee8fedcb35d0",
       "status" : "broken",
       "time" : {
@@ -309,7 +309,7 @@
     "name" : "Launch Url",
     "children" : [ {
       "name" : "Launch the book store url",
-      "uid" : "11d615187d962f18",
+      "uid" : "1e521dca9434c470",
       "parentUid" : "56b6cec0ee1d924f70e670b23a043797",
       "status" : "passed",
       "time" : {
@@ -326,6 +326,196 @@
       "parameters" : [ ]
     } ],
     "uid" : "56b6cec0ee1d924f70e670b23a043797"
+  }, {
+    "name" : "features/loadurl.feature",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file: features/loadurl.feature",
+      "uid" : "86fd24e3f92f95c2",
+      "parentUid" : "db96da33ccd9d7e17741042af6a274ff",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648732373171,
+        "stop" : 1648732373171,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "db96da33ccd9d7e17741042af6a274ff"
+  }, {
+    "name" : "basic-examples/testing-library-sample.spec.ts",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+      "uid" : "1a31fd2f922a6a24",
+      "parentUid" : "a22999341f24e07fc84569a55d2a2bc4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648732642444,
+        "stop" : 1648732642444,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+      "uid" : "f54c5c64f2c3c657",
+      "parentUid" : "a22999341f24e07fc84569a55d2a2bc4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648732732756,
+        "stop" : 1648732732756,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+      "uid" : "3bced22e79b0416d",
+      "parentUid" : "a22999341f24e07fc84569a55d2a2bc4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648732925512,
+        "stop" : 1648732925512,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+      "uid" : "d9b57e3bab0e4a0f",
+      "parentUid" : "a22999341f24e07fc84569a55d2a2bc4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648732981611,
+        "stop" : 1648732981611,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a22999341f24e07fc84569a55d2a2bc4"
+  }, {
+    "name" : "Conduit Webpage",
+    "children" : [ {
+      "name" : "Launch the Conduit url",
+      "uid" : "a90b17896591e6fa",
+      "parentUid" : "f34e7fc5f69c2f69763affbdfa28f86b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648735958677,
+        "stop" : 1648735962554,
+        "duration" : 3877
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login with the user - fail case",
+      "uid" : "cad881739a7439c8",
+      "parentUid" : "f34e7fc5f69c2f69763affbdfa28f86b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648744647337,
+        "stop" : 1648744648530,
+        "duration" : 1193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login with the user",
+      "uid" : "4b2463eb7b19105b",
+      "parentUid" : "f34e7fc5f69c2f69763affbdfa28f86b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1648744933323,
+        "stop" : 1648744989077,
+        "duration" : 55754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f34e7fc5f69c2f69763affbdfa28f86b"
+  }, {
+    "name" : "Conduit Store Basics",
+    "children" : [ {
+      "name" : "Add an item to the cart",
+      "uid" : "223033952d751fe8",
+      "parentUid" : "54ed62cd5eac2f3c1cdaa52e6729b15b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1648788825699,
+        "stop" : 1648788834202,
+        "duration" : 8503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "54ed62cd5eac2f3c1cdaa52e6729b15b"
+  }, {
+    "name" : "SnipCart Website Local",
+    "children" : [ {
+      "name" : "Add an item to the cart",
+      "uid" : "9781f00a3965001b",
+      "parentUid" : "ba29956a4b386e5ee3ec6728d6c99230",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648789886713,
+        "stop" : 1648789892059,
+        "duration" : 5346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ba29956a4b386e5ee3ec6728d6c99230"
   } ],
   "name" : "suites"
 }

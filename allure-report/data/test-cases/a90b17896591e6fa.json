@@ -1,0 +1,232 @@
+{
+  "uid" : "a90b17896591e6fa",
+  "name" : "Launch the Conduit url",
+  "fullName" : "Launch the Conduit url",
+  "historyId" : "f0cf1cc201ac998431b20f5a309276c7",
+  "time" : {
+    "start" : 1648735958677,
+    "stop" : 1648735962554,
+    "duration" : 3877
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648735958693,
+        "stop" : 1648735958696,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given go to conduit url",
+      "time" : {
+        "start" : 1648735958742,
+        "stop" : 1648735962469,
+        "duration" : 3727
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648735958743,
+          "stop" : 1648735962463,
+          "duration" : 3720
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1648735962462,
+          "stop" : 1648735962462,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1648735962462,
+          "stop" : 1648735962462,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And verify the conduit header",
+      "time" : {
+        "start" : 1648735962469,
+        "stop" : 1648735962554,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findAllByText conduit",
+        "time" : {
+          "start" : 1648735962470,
+          "stop" : 1648735962549,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <a.navbar-brand>, 2 more... ]** to exist in the DOM",
+        "time" : {
+          "start" : 1648735962548,
+          "stop" : 1648735962549,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "[ <a.navbar-brand>, 2 more... ]"
+        }, {
+          "name" : "expected",
+          "value" : "[ <a.navbar-brand>, 2 more... ]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **[ <a.navbar-brand>, 2 more... ]** to exist in the DOM",
+        "time" : {
+          "start" : 1648735962549,
+          "stop" : 1648735962549,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "[ <a.navbar-brand>, 2 more... ]"
+        }, {
+          "name" : "expected",
+          "value" : "[ <a.navbar-brand>, 2 more... ]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1648735962591,
+        "stop" : 1648735962594,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "feature",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "96b7d89410dc874d",
+      "status" : "failed",
+      "statusDetails" : "Cypress command timeout of `4000ms` exceeded.",
+      "time" : {
+        "start" : 1648733262962,
+        "stop" : 1648733303623,
+        "duration" : 40661
+      }
+    }, {
+      "uid" : "4794d80cdb81b36e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Found multiple elements with the text: conduit\n\nHere are the matching elements:\n\nIgnored nodes: comments, <script />, <style />\n<a\n  class=\"navbar-brand\"\n  href=\"/\"\n  routerlink=\"/\"\n>\n  conduit\n</a>\n\nIgnored nodes: comments, <script />, <style />\n<h1\n  _ngcontent-c0=\"\"\n  class=\"logo-font\"\n>\n  conduit\n</h1>\n\nIgnored nodes: comments, <script />, <style />\n<a\n  class=\"logo-font\"\n  href=\"/\"\n  routerlink=\"/\"\n>\n  conduit\n</a>\n\n(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).\n\nIgnored nodes: comments, <script />, <style />\n<html>\n  <head>\n     \n    \n  \n    <meta\n      charset=\"utf-8\"\n    />\n    \n  \n    <title>\n      Conduit\n    </title>\n    \n  \n    <base\n      href=\"./\"\n    />\n    \n  \n    <meta\n      content=\"width=device-width, initial-scale=1\"\n      name=\"viewport\"\n    />\n    \n  \n    <link\n      href=\"//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css\"\n      rel=\"stylesheet\"\n      type=\"text/css\"\n    />\n    \n  \n    <link\n      href=\"//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic\"\n      rel=\"stylesheet\"\n      type=\"text/css\"\n    />\n    \n  \n    <link\n      href=\"//demo.productionready.io/main.css\"\n      rel=\"stylesheet\"\n    />\n    \n\n\n    <link\n      href=\"styles.3ff695c00d717f2d2a11.css\"\n      rel=\"stylesheet\"\n    />\n  </head>\n  \n\n  <body>\n    \n  \n    <app-root\n      ng-version=\"7.2.4\"\n    >\n      <app-layout-header>\n        <nav\n          class=\"navbar navbar-light\"\n        >\n          <div\n            class=\"container\"\n          >\n            <a\n              class=\"navbar-brand\"\n              href=\"/\"\n              routerlink=\"/\"\n            >\n              conduit\n            </a>\n            <ul\n              class=\"nav navbar-nav pull-xs-right\"\n            >\n              <li\n                class=\"nav-item\"\n              >\n                <a\n                  class=\"nav-link\"\n                  href=\"/\"\n                  routerlink=\"/\"\n                >\n                   Home \n                </a>\n              </li>\n              <li\n                class=\"nav-item\"\n              >\n                <a\n                  class=\"nav-link\"\n                  href=\"/login\"\n                  routerlink=\"/login\"\n                  routerlinkactive=\"active\"\n                >\n                   Sign in \n                </a>\n              </li>\n              <li\n                class=\"nav-item\"\n              >\n                <a\n                  class=\"nav-link\"\n                  href=\"/register\"\n                  routerlink=\"/register\"\n                  routerlinkactive=\"active\"\n                >\n                   Sign up \n                </a>\n              </li>\n            </ul>\n          </div>\n        </nav>\n      </app-layout-header>\n      <router-outlet />\n      <app-home-page\n        _nghost-c0=\"\"\n      >\n        <div\n          _ngcontent-c0=\"\"\n          class=\"home-page\"\n        >\n          <div\n            _ngcontent-c0=\"\"\n            class=\"banner\"\n          >\n            <div\n              _ngcontent-c0=\"\"\n              class=\"container\"\n            >\n              <h1\n                _ngcontent-c0=\"\"\n                class=\"logo-font\"\n              >\n                conduit\n              </h1>\n              <p\n                _ngcontent-c0=\"\"\n              >\n                A place to share your \n                <i\n                  _ngcontent-c0=\"\"\n                >\n                  Angular\n                </i>\n                 knowledge.\n              </p>\n            </div>\n          </div>\n          <div\n            _ngcontent-c0=\"\"\n            class=\"container page\"\n          >\n            <div\n              _ngcontent-c0=\"\"\n              class=\"row\"\n            >\n              <div\n                _ngcontent-c0=\"\"\n                class=\"col-md-9\"\n              >\n                <div\n                  _ngcontent-c0=\"\"\n                  class=\"feed-toggle\"\n                >\n                  <ul\n                    _ngcontent-c0=\"\"\n                    class=\"nav nav-pills outline-active\"\n                  >\n                    <li\n                      _ngcontent-c0=\"\"\n                      class=\"nav-item\"\n                    >\n                      <a\n                        _ngcontent-c0=\"\"\n                        class=\"nav-link\"\n                      >\n                         Your Feed \n                      </a>\n                    </li>\n                    <li\n                      _ngcontent-c0=\"\"\n                      class=\"nav-item\"\n                    >\n                      <a\n                        _ngcontent-c0=\"\"\n                        class=\"nav-link active\"\n                      >\n                         Global Feed \n                      </a>\n                    </li>\n                    <li\n                      _ngcontent-c0=\"\"\n                      class=\"nav-item\"\n                      hidden=\"\"\n                    >\n                      <a\n                        _ngcontent-c0=\"\"\n                        class=\"nav-link active\"\n                      >\n                        <i\n                          _ngcontent-c0=\"\"\n                          class=\"ion-pound\"\n                        />\n                          \n                      </a>\n                    </li>\n                  </ul>\n                </div>\n                <app-article-list\n                  _ngcontent-c0=\"\"\n                  _nghost-c1=\"\"\n                >\n                  <div\n                    _ngcontent-c1=\"\"\n                    class=\"app-article-preview\"\n                  >\n                     Loading articles...\n\n                  </div>\n                  <div\n                    _ngcontent-c1=\"\"\n                    class=\"app-article-preview\"\n                    hidden=\"\"\n                  >\n                     No articles are here... yet.\n\n                  </div>\n                  <nav\n                    _ngcontent-c1=\"\"\n                    hidden=\"\"\n                  >\n                    <ul\n                      _ngcontent-c1=\"\"\n                      class=\"pagination\"\n                    >\n                      <li\n                        _ngcontent-c1=\"\"\n                        class=\"page-item active\"\n                      >\n                        <a\n                          _ngcontent-c1=\"\"\n                          class=\"page-link\"\n                        >\n                          1\n                        </a>\n                      </li>\n                    </ul>\n                  </nav>\n                </app-article-list>\n              </div>\n              <div\n                _ngcontent-c0=\"\"\n                class=\"col-md-3\"\n              >\n                <div\n                  _ngcontent-c0=\"\"\n                  class=\"sidebar\"\n                >\n                  <p\n                    _ngcontent-c0=\"\"\n                  >\n                    Popular Tags\n                  </p>\n                  <div\n                    _ngcontent-c0=\"\"\n                    class=\"tag-list\"\n                  />\n                  <div\n                    _ngcontent-c0=\"\"\n                  >\n                     Loading tags... \n                  </div>\n                  <div\n                    _ngcontent-c0=\"\"\n                    hidden=\"\"\n                  >\n                     No tags are here... yet. \n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </app-home-page>\n      <app-layout-footer>\n        <footer>\n          <div\n            class=\"container\"\n          >\n            <a\n              class=\"logo-font\"\n              href=\"/\"\n              routerlink=\"/\"\n            >\n              conduit\n            </a>\n            <span\n              class=\"attribution\"\n            >\n               © 2022. An interactive learning project from \n              <a\n                href=\"https://thinkster.io\"\n              >\n                Thinkster\n              </a>\n              . Code licensed under MIT. \n            </span>\n          </div>\n        </footer>\n      </app-layout-footer>\n    </app-root>\n    \n\n    \n\n\n  </body>\n</html>",
+      "time" : {
+        "start" : 1648733193361,
+        "stop" : 1648733201796,
+        "duration" : 8435
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a90b17896591e6fa.json",
+  "parameterValues" : [ ]
+}

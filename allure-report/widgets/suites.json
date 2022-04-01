@@ -1,5 +1,5 @@
 {
-  "total" : 5,
+  "total" : 10,
   "items" : [ {
     "uid" : "d602f8bc534b947c75dda993785c3a6e",
     "name" : "Book Store Interception",
@@ -21,6 +21,39 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 5
+    }
+  }, {
+    "uid" : "f34e7fc5f69c2f69763affbdfa28f86b",
+    "name" : "Conduit Webpage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "54ed62cd5eac2f3c1cdaa52e6729b15b",
+    "name" : "Conduit Store Basics",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a22999341f24e07fc84569a55d2a2bc4",
+    "name" : "basic-examples/testing-library-sample.spec.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
     }
   }, {
     "uid" : "0a47927adab14f127631ee8fedcb35d0",
@@ -45,8 +78,30 @@
       "total" : 5
     }
   }, {
+    "uid" : "db96da33ccd9d7e17741042af6a274ff",
+    "name" : "features/loadurl.feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "56b6cec0ee1d924f70e670b23a043797",
     "name" : "Launch Url",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ba29956a4b386e5ee3ec6728d6c99230",
+    "name" : "SnipCart Website Local",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

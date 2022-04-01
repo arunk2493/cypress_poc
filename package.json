@@ -10,10 +10,12 @@
     "test": "npm run scripts || npm run posttest",
     "cpdir": "npx copyfiles allure-report/history allure-results",
     "sampletest": "cypress run --env allure=true --headed --spec cypress/integration/basic-examples/testing-library-sample.spec.ts",
-    "e2etest": "cypress run --env allure=true --headed --spec cypress/integration/features/launch.feature",
+    "e2etest": "cypress run --env allure=true --headed --spec cypress/integration/features/snipcart.feature --browser chrome",
     "poste2etest": "npm run allure:report",
     "e2etestdocker": "cypress run --headed --spec cypress/integration/features/launch.feature",
-    "start:ci": "serve --no-clipboard --listen ${PORT:-8080}"
+    "start:ci": "serve --no-clipboard --listen ${PORT:-8080}",
+    "e2etesttags": "cypress-tags run -e TAGS=@Smoke allure=true --headed --spec cypress/integration/features/loadurl.feature",
+    "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos"
   },
   "repository": {
     "type": "git",

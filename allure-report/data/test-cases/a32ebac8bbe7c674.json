@@ -1,0 +1,387 @@
+{
+  "uid" : "a32ebac8bbe7c674",
+  "name" : "Article Validation - Stubbed Response",
+  "fullName" : "Article Validation - Stubbed Response",
+  "historyId" : "f38630555b5c5191e1cba42ed301c597",
+  "time" : {
+    "start" : 1648656392141,
+    "stop" : 1648656400816,
+    "duration" : 8675
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `tag`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+  "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `tag`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at checkForXhr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:162559:92)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:162582:28\n    at tryCatcher (https://angular.realworld.io/__cypress/runner/cypress_runner.js:13022:23)\n    at Function.Promise.attempt.Promise.try (https://angular.realworld.io/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://angular.realworld.io/__cypress/runner/cypress_runner.js:168785:63)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:168282:14\n    at tryCatcher (https://angular.realworld.io/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://angular.realworld.io/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11083:18)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:105:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 14,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `tag`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+    "statusTrace" : "CypressError: Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `tag`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176361:18)\n    at Object.errByPath (https://angular.realworld.io/__cypress/runner/cypress_runner.js:176430:10)\n    at checkForXhr (https://angular.realworld.io/__cypress/runner/cypress_runner.js:162559:92)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:162582:28\n    at tryCatcher (https://angular.realworld.io/__cypress/runner/cypress_runner.js:13022:23)\n    at Function.Promise.attempt.Promise.try (https://angular.realworld.io/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://angular.realworld.io/__cypress/runner/cypress_runner.js:168785:63)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:168282:14\n    at tryCatcher (https://angular.realworld.io/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://angular.realworld.io/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://angular.realworld.io/__cypress/runner/cypress_runner.js:11083:18)\n    at https://angular.realworld.io/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:105:12)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648656392143,
+        "stop" : 1648656394925,
+        "duration" : 2782
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648656392179,
+          "stop" : 1648656394889,
+          "duration" : 2710
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1648656394889,
+          "stop" : 1648656394889,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1648656394889,
+          "stop" : 1648656394889,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"launch\")",
+        "time" : {
+          "start" : 1648656394890,
+          "stop" : 1648656394891,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"GET\"; \"**/api/tags\")",
+        "time" : {
+          "start" : 1648656394891,
+          "stop" : 1648656394902,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"GET\"; \"**/api/tags\"; \"{ fixture: 'tags.json' }\")",
+        "time" : {
+          "start" : 1648656394903,
+          "stop" : 1648656394915,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"tag\")",
+        "time" : {
+          "start" : 1648656394915,
+          "stop" : 1648656394915,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"GET\"; \"**/articles*\"; \"{ fixture: 'articles.json' }\")",
+        "time" : {
+          "start" : 1648656394915,
+          "stop" : 1648656394923,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"article\")",
+        "time" : {
+          "start" : 1648656394923,
+          "stop" : 1648656394923,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "wait @tag",
+      "time" : {
+        "start" : 1648656394926,
+        "stop" : 1648656400815,
+        "duration" : 5889
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3089b30d1b84a7a8",
+      "name" : "basic-examples/interception-sample.spec.ts:2022-03-30T16:06:39.989Z",
+      "source" : "3089b30d1b84a7a8.png",
+      "type" : "image/png",
+      "size" : 363329
+    }, {
+      "uid" : "f36674f76dca65a",
+      "name" : "video recording",
+      "source" : "f36674f76dca65a.mp4",
+      "type" : "video/mp4",
+      "size" : 2885876
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd660f61a5851f23",
+      "status" : "failed",
+      "statusDetails" : "`cy.wait()` only accepts aliases for routes.\nThe alias: `launch` did not match a route.\n\nhttps://on.cypress.io/wait",
+      "time" : {
+        "start" : 1648655541192,
+        "stop" : 1648655546316,
+        "duration" : 5124
+      }
+    }, {
+      "uid" : "38c492899dadcefc",
+      "status" : "broken",
+      "statusDetails" : "Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `/Users/arunkumarkumaraswamy/Documents/Study/Cypress/cypress_poc/cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+      "time" : {
+        "start" : 1648655373514,
+        "stop" : 1648655434633,
+        "duration" : 61119
+      }
+    }, {
+      "uid" : "85a5d5d933b7855c",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '[ <h1>, 1 more... ]' to have text 'Create a new implementation', but the text was 'Create a new implementationExplore implementations'",
+      "time" : {
+        "start" : 1648655290103,
+        "stop" : 1648655297922,
+        "duration" : 7819
+      }
+    }, {
+      "uid" : "b2de7d9922036836",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '[ <div.article-preview>, 1 more... ]' to have text 'Create a new implementation', but the text was ' Gerome  November 24, 2021  1629 Create a new implementationjoin the community by creating a new implementationRead more... implementations  Gerome  November 24, 2021  1051 Explore implementationsdiscover the implementations created by the RealWorld communityRead more... codebaseShow  implementations '",
+      "time" : {
+        "start" : 1648655209201,
+        "stop" : 1648655217669,
+        "duration" : 8468
+      }
+    }, {
+      "uid" : "45b7c9b3240ffd67",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '[ <div.article-preview>, 1 more... ]' to have text 'Create a new implementation', but the text was ' Gerome  November 24, 2021  1629 Create a new implementationjoin the community by creating a new implementationRead more... implementations  Gerome  November 24, 2021  1051 Explore implementationsdiscover the implementations created by the RealWorld communityRead more... codebaseShow  implementations '",
+      "time" : {
+        "start" : 1648655049475,
+        "stop" : 1648655057409,
+        "duration" : 7934
+      }
+    }, {
+      "uid" : "c35957e7d2212001",
+      "status" : "broken",
+      "statusDetails" : "Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `/Users/arunkumarkumaraswamy/Documents/Study/Cypress/cypress_poc/cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+      "time" : {
+        "start" : 1648652159173,
+        "stop" : 1648652220253,
+        "duration" : 61080
+      }
+    }, {
+      "uid" : "befa66c78e06e438",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '[ <h1>, 1 more... ]' to have text 'Create a new implementation', but the text was 'Create a new implementationExplore implementations'",
+      "time" : {
+        "start" : 1648651645189,
+        "stop" : 1648651653740,
+        "duration" : 8551
+      }
+    }, {
+      "uid" : "628a095feaf5d7a6",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '[ <h1>, 1 more... ]' to have text 'Create a new implementation', but the text was 'Create a new implementationExplore implementations'",
+      "time" : {
+        "start" : 1648651554970,
+        "stop" : 1648651563067,
+        "duration" : 8097
+      }
+    }, {
+      "uid" : "308efa387fb772e7",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '[ <h1>, 1 more... ]' to have text 'Create a new implementation', but the text was 'Create a new implementationExplore implementations'",
+      "time" : {
+        "start" : 1648651407791,
+        "stop" : 1648651415956,
+        "duration" : 8165
+      }
+    }, {
+      "uid" : "a8a3dc85e1355bb",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '[ <h1>, 1 more... ]' to have text 'Create a nw implementation', but the text was 'Create a new implementationExplore implementations'",
+      "time" : {
+        "start" : 1648650942290,
+        "stop" : 1648650950943,
+        "duration" : 8653
+      }
+    }, {
+      "uid" : "d97be082495b2459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648650802907,
+        "stop" : 1648650803445,
+        "duration" : 538
+      }
+    }, {
+      "uid" : "f603b1f56f783452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648650602429,
+        "stop" : 1648650602935,
+        "duration" : 506
+      }
+    }, {
+      "uid" : "16c15c2aa55753b6",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.article-preview a h1`, but never found it.",
+      "time" : {
+        "start" : 1648650488837,
+        "stop" : 1648650494700,
+        "duration" : 5863
+      }
+    }, {
+      "uid" : "28d2a734c49bb614",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://api.realworld.io/\n\nThe `content-type` of the response we received from your web server was:\n\n  > `application/json`\n\nThis was considered a failure because responses must have `content-type: 'text/html'`\n\nHowever, you can likely use `cy.request()` instead of `cy.visit()`.\n\n`cy.request()` will automatically get and set cookies and enable you to parse responses.",
+      "time" : {
+        "start" : 1648650429014,
+        "stop" : 1648650429015,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7b0a7463cadd5ef1",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `tag`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+        "time" : {
+          "start" : 1648656392141,
+          "stop" : 1648656400816,
+          "duration" : 8675
+        }
+      }, {
+        "uid" : "4f4f1fc3ad572717",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 5000ms: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `tag`. No request ever occurred.\n\nhttps://on.cypress.io/wait",
+        "time" : {
+          "start" : 1648656392141,
+          "stop" : 1648656400816,
+          "duration" : 8675
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a32ebac8bbe7c674.json",
+  "parameterValues" : [ ]
+}

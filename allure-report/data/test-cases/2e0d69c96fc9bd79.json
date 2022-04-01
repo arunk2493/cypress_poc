@@ -1,0 +1,263 @@
+{
+  "uid" : "2e0d69c96fc9bd79",
+  "name" : "Tags Validation - Actual response",
+  "fullName" : "Tags Validation - Actual response",
+  "historyId" : "fdfe444bdfbf928d1d346e8fed7091e7",
+  "time" : {
+    "start" : 1648650794438,
+    "stop" : 1648650802852,
+    "duration" : 8414
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:104:44)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/basic-examples/interception-sample.spec.ts:104:44)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648650794440,
+        "stop" : 1648650797980,
+        "duration" : 3540
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "intercept (\"GET\"; \"https://conduit.productionready.io/api/tags\")",
+        "time" : {
+          "start" : 1648650794527,
+          "stop" : 1648650794565,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "intercept (\"GET\"; \"https://conduit.productionready.io/api/articles?limit=10&offset=0\"; \"{ fixture: 'articles.json' }\")",
+        "time" : {
+          "start" : 1648650794567,
+          "stop" : 1648650794576,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648650794576,
+          "stop" : 1648650797979,
+          "duration" : 3403
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1648650797979,
+          "stop" : 1648650797979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1648650797979,
+          "stop" : 1648650797979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "intercept (\"GET\"; \"https://api.realworld.io/api/tags\"; \"{ fixture: 'tags.json' }\")",
+      "time" : {
+        "start" : 1648650797984,
+        "stop" : 1648650797999,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .tag-list a:nth-child(1)",
+      "time" : {
+        "start" : 1648650797999,
+        "stop" : 1648650802851,
+        "duration" : 4852
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **.tag-list a:nth-child(1)** to contain text **welcome**, but the text was **''**",
+      "time" : {
+        "start" : 1648650802851,
+        "stop" : 1648650802851,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected",
+        "value" : "welcome"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e72b2b8d3b0bcb0c",
+      "name" : "basic-examples/interception-sample.spec.ts:2022-03-30T14:33:22.054Z",
+      "source" : "e72b2b8d3b0bcb0c.png",
+      "type" : "image/png",
+      "size" : 484315
+    }, {
+      "uid" : "c7faf1844891535a",
+      "name" : "video recording",
+      "source" : "c7faf1844891535a.mp4",
+      "type" : "video/mp4",
+      "size" : 3090675
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Book Store Interception"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f48d442bfba9f69b",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+      "time" : {
+        "start" : 1648650592886,
+        "stop" : 1648650602394,
+        "duration" : 9508
+      }
+    }, {
+      "uid" : "55b818e9709723eb",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+      "time" : {
+        "start" : 1648650482760,
+        "stop" : 1648650488791,
+        "duration" : 6031
+      }
+    }, {
+      "uid" : "786c8fef5d0391f2",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://api.realworld.io/\n\nThe `content-type` of the response we received from your web server was:\n\n  > `application/json`\n\nThis was considered a failure because responses must have `content-type: 'text/html'`\n\nHowever, you can likely use `cy.request()` instead of `cy.visit()`.\n\n`cy.request()` will automatically get and set cookies and enable you to parse responses.",
+      "time" : {
+        "start" : 1648650426969,
+        "stop" : 1648650429014,
+        "duration" : 2045
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "fbb112df450552a5",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+        "time" : {
+          "start" : 1648650794438,
+          "stop" : 1648650802852,
+          "duration" : 8414
+        }
+      }, {
+        "uid" : "8ed891cc3c37fa73",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.tag-list a:nth-child(1)`, but never found it.",
+        "time" : {
+          "start" : 1648650794438,
+          "stop" : 1648650802852,
+          "duration" : 8414
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2e0d69c96fc9bd79.json",
+  "parameterValues" : [ ]
+}

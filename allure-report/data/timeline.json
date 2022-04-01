@@ -1,31 +1,14 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "Launch the book page - Intercept Book Call",
-    "uid" : "41e9ca182eb12890",
+    "name" : "Add an item to the cart",
+    "uid" : "619b22fec61120e1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648645618858,
-      "stop" : 1648645625039,
-      "duration" : 6181
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "Launch the book page - Intercept Book Call",
-    "uid" : "a8b42c2f85fc5a35",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648645096165,
-      "stop" : 1648645098773,
-      "duration" : 2608
+      "start" : 1648789446642,
+      "stop" : 1648789455786,
+      "duration" : 9144
     },
     "flaky" : false,
     "newFailed" : false,
@@ -35,65 +18,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "881a1cebed77bd97",
+    "name" : "Login with the user",
+    "uid" : "27f354968afb1618",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1648657067843,
-      "stop" : 1648657080039,
-      "duration" : 12196
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Launch the book page - Intercept Book Call",
-    "uid" : "d036f871b37ba865",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648644912887,
-      "stop" : 1648644915364,
-      "duration" : 2477
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET single User - Stubbed Response",
-    "uid" : "991f20f0ecfef670",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1648659143502,
-      "stop" : 1648659143503,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify the header - testing Library",
-    "uid" : "83e69ea4f28066b2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648644405385,
-      "stop" : 1648644408277,
-      "duration" : 2892
+      "start" : 1648739442009,
+      "stop" : 1648739445927,
+      "duration" : 3918
     },
     "flaky" : false,
     "newFailed" : false,
@@ -104,81 +36,13 @@
     "parameters" : [ ]
   }, {
     "name" : "GET User - Stubbed Response",
-    "uid" : "f3af78248cfbf960",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1648657289776,
-      "stop" : 1648657350961,
-      "duration" : 61185
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "20c470d3b8502e48",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1648652159173,
-      "stop" : 1648652220253,
-      "duration" : 61080
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET Users - Stubbed Response",
-    "uid" : "c712ddf16b40897e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1648658275413,
-      "stop" : 1648658275416,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Username testing",
-    "uid" : "8989ca0fdf5dd896",
+    "uid" : "b38ff59f234b9e08",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648645761856,
-      "stop" : 1648645771029,
-      "duration" : 9173
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Launch the book page - Intercept Book Call",
-    "uid" : "e9cc9f36cc0c8b65",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648645457472,
-      "stop" : 1648645464967,
-      "duration" : 7495
+      "start" : 1648657480271,
+      "stop" : 1648657495534,
+      "duration" : 15263
     },
     "flaky" : false,
     "newFailed" : false,
@@ -189,234 +53,30 @@
     "parameters" : [ ]
   }, {
     "name" : "Tags Validation - Actual response",
-    "uid" : "b83184de3b2933c8",
+    "uid" : "2e0d69c96fc9bd79",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648650482760,
-      "stop" : 1648650488791,
-      "duration" : 6031
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "2df1eca47213dd9b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648656963475,
-      "stop" : 1648656973528,
-      "duration" : 10053
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "d70872cb24fee74f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648655541192,
-      "stop" : 1648655546316,
-      "duration" : 5124
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Tags Validation - Actual response",
-    "uid" : "f78336cbc1e96297",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1648650426969,
-      "stop" : 1648650429014,
-      "duration" : 2045
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET single User - Stubbed Response",
-    "uid" : "9a5887beca4cdc6e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648659001272,
-      "stop" : 1648659010280,
-      "duration" : 9008
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify the header - testing Library",
-    "uid" : "668fee5d0864bf63",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648644513497,
-      "stop" : 1648644518416,
-      "duration" : 4919
+      "start" : 1648650794438,
+      "stop" : 1648650802852,
+      "duration" : 8414
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
     "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET Users - Stubbed Response",
-    "uid" : "69cd3cc0331c8471",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648659768173,
-      "stop" : 1648659799469,
-      "duration" : 31296
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "2b58d6524e99a990",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648656821101,
-      "stop" : 1648656841281,
-      "duration" : 20180
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET single User - Stubbed Response",
-    "uid" : "c2f9902408a46402",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648658534415,
-      "stop" : 1648658545232,
-      "duration" : 10817
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Launch the book store url",
-    "uid" : "94abe3a12ff74639",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648726868607,
-      "stop" : 1648726871929,
-      "duration" : 3322
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Launch the book page - Intercept Book Call",
-    "uid" : "c32bcbdf99131c44",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648645145592,
-      "stop" : 1648645149928,
-      "duration" : 4336
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Click the first book - Should Assertions",
-    "uid" : "5208473b169fd164",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648637994999,
-      "stop" : 1648637996465,
-      "duration" : 1466
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET single User - Stubbed Response",
-    "uid" : "9b94f04e519f0c67",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648702030671,
-      "stop" : 1648702041090,
-      "duration" : 10419
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 8,
     "retriesStatusChange" : true,
     "parameters" : [ ]
   }, {
-    "name" : "GET Users - Stubbed Response",
-    "uid" : "ec4e264b37d53d36",
+    "name" : "Verify the header - testing Library",
+    "uid" : "1755168087859772",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1648659189249,
-      "stop" : 1648659201435,
-      "duration" : 12186
+      "start" : 1648644319360,
+      "stop" : 1648644321831,
+      "duration" : 2471
     },
     "flaky" : false,
     "newFailed" : false,
@@ -426,31 +86,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "GET Users - Stubbed Response",
-    "uid" : "21c0fc24a67afdfd",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648699991917,
-      "stop" : 1648700002040,
-      "duration" : 10123
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "2000b5c4bc57ac74",
+    "name" : "Add an item to the cart",
+    "uid" : "5e5ac2cbebaaf82f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648650942290,
-      "stop" : 1648650950943,
-      "duration" : 8653
+      "start" : 1648789745126,
+      "stop" : 1648789754898,
+      "duration" : 9772
     },
     "flaky" : false,
     "newFailed" : false,
@@ -461,24 +104,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Article Validation - Stubbed Response",
-    "uid" : "eff3441a6385ea90",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1648655373514,
-      "stop" : 1648655434633,
-      "duration" : 61119
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "b4ade8371ec1caf2",
+    "uid" : "34145dd1daa8c847",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
@@ -494,14 +120,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "6948512b19a88ebf",
+    "name" : "Click the first book - Chai Assertions",
+    "uid" : "23291590ecfa69b4",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648656137682,
-      "stop" : 1648656146509,
-      "duration" : 8827
+      "start" : 1648637988791,
+      "stop" : 1648637994979,
+      "duration" : 6188
     },
     "flaky" : false,
     "newFailed" : false,
@@ -511,31 +137,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Launch the book store url",
-    "uid" : "11d615187d962f18",
+    "name" : "Launch the book page - Intercept Book Call",
+    "uid" : "18e6b288e30b6896",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1648727366985,
-      "stop" : 1648727370436,
-      "duration" : 3451
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "5a39e43e5c326b84",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648655290103,
-      "stop" : 1648655297922,
-      "duration" : 7819
+      "start" : 1648645096165,
+      "stop" : 1648645098773,
+      "duration" : 2608
     },
     "flaky" : false,
     "newFailed" : false,
@@ -546,7 +155,7 @@
     "parameters" : [ ]
   }, {
     "name" : "GET Users - Stubbed Response",
-    "uid" : "66e33336ae5fed2c",
+    "uid" : "962317c7920e93eb",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
@@ -563,30 +172,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Article Validation - Stubbed Response",
-    "uid" : "a0dd3929c2a8515d",
+    "uid" : "795838f289fe640f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1648656254238,
-      "stop" : 1648656263220,
-      "duration" : 8982
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET User - Stubbed Response",
-    "uid" : "76aba96b6bca4420",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648657480271,
-      "stop" : 1648657495534,
-      "duration" : 15263
+      "start" : 1648656963475,
+      "stop" : 1648656973528,
+      "duration" : 10053
     },
     "flaky" : false,
     "newFailed" : false,
@@ -597,30 +189,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Article Validation - Stubbed Response",
-    "uid" : "5108074400e57dad",
+    "uid" : "85a5d5d933b7855c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648655209201,
-      "stop" : 1648655217669,
-      "duration" : 8468
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "148896d908285ae6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648651554970,
-      "stop" : 1648651563067,
-      "duration" : 8097
+      "start" : 1648655290103,
+      "stop" : 1648655297922,
+      "duration" : 7819
     },
     "flaky" : false,
     "newFailed" : false,
@@ -631,81 +206,13 @@
     "parameters" : [ ]
   }, {
     "name" : "GET single User - Stubbed Response",
-    "uid" : "16211a18930dde2c",
+    "uid" : "11bcefef2121fdd9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648659632718,
-      "stop" : 1648659641727,
-      "duration" : 9009
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET User - Stubbed Response",
-    "uid" : "af90e1ec82bb77a2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648657906613,
-      "stop" : 1648657923812,
-      "duration" : 17199
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 4,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET Users - Stubbed Response",
-    "uid" : "4995e9ec20392394",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648702015911,
-      "stop" : 1648702030441,
-      "duration" : 14530
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 8,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET single User - Stubbed Response",
-    "uid" : "67d22982c6de6770",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648658275416,
-      "stop" : 1648658310966,
-      "duration" : 35550
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Oops...we found an error preparing this test file: features/launch.feature",
-    "uid" : "8cd7fab939c2600",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1648726621601,
-      "stop" : 1648726621601,
-      "duration" : 0
+      "start" : 1648658534415,
+      "stop" : 1648658545232,
+      "duration" : 10817
     },
     "flaky" : false,
     "newFailed" : false,
@@ -716,7 +223,7 @@
     "parameters" : [ ]
   }, {
     "name" : "Article Validation - Stubbed Response",
-    "uid" : "4d6d855a5dc1345",
+    "uid" : "28d2a734c49bb614",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
@@ -732,30 +239,13 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "2c70e734bf40bf25",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648656392141,
-      "stop" : 1648656400816,
-      "duration" : 8675
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 14,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "Oops...we found an error preparing this test file: features/launch.feature",
-    "uid" : "10fb5844b65478c3",
+    "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+    "uid" : "d9b57e3bab0e4a0f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
-      "start" : 1648727148787,
-      "stop" : 1648727148787,
+      "start" : 1648732981611,
+      "stop" : 1648732981611,
       "duration" : 0
     },
     "flaky" : false,
@@ -766,65 +256,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "33f92107a1bdae67",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648657128781,
-      "stop" : 1648657138284,
-      "duration" : 9503
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 6,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET single User - Stubbed Response",
-    "uid" : "c5864ce361830742",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648659201486,
-      "stop" : 1648659210447,
-      "duration" : 8961
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "Launch the book page - Intercept Book Call",
-    "uid" : "a8ebf5284dbc5f4e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648645508754,
-      "stop" : 1648645516586,
-      "duration" : 7832
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify the book detail",
-    "uid" : "54f5c5cb09a67059",
+    "uid" : "a55553102ee5599d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1648637985741,
-      "stop" : 1648637988763,
-      "duration" : 3022
+      "start" : 1648644912887,
+      "stop" : 1648644915364,
+      "duration" : 2477
     },
     "flaky" : false,
     "newFailed" : false,
@@ -834,14 +273,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Click the first book - Chai Assertions",
-    "uid" : "2885fe463816436f",
+    "name" : "Login with the user",
+    "uid" : "39450e4910a27762",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648637988791,
-      "stop" : 1648637994979,
-      "duration" : 6188
+      "start" : 1648741753154,
+      "stop" : 1648741793942,
+      "duration" : 40788
     },
     "flaky" : false,
     "newFailed" : false,
@@ -851,82 +290,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "f1faeaa7f7027766",
+    "name" : "Login with the user",
+    "uid" : "2a9afbfdcb491582",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648655049475,
-      "stop" : 1648655057409,
-      "duration" : 7934
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "f7ec8d0835970e27",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648650602429,
-      "stop" : 1648650602935,
-      "duration" : 506
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "790231373bbc7fa2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648650488837,
-      "stop" : 1648650494700,
-      "duration" : 5863
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Article Validation - Stubbed Response",
-    "uid" : "d6c8b9386834bf79",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648650802907,
-      "stop" : 1648650803445,
-      "duration" : 538
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify the header - testing Library - Fail Case",
-    "uid" : "f75b2b78af93f94d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648644518425,
-      "stop" : 1648644524818,
-      "duration" : 6393
+      "start" : 1648741842539,
+      "stop" : 1648741883172,
+      "duration" : 40633
     },
     "flaky" : false,
     "newFailed" : false,
@@ -937,13 +308,115 @@
     "parameters" : [ ]
   }, {
     "name" : "Tags Validation - Actual response",
-    "uid" : "fd25060f28ab81f",
+    "uid" : "786c8fef5d0391f2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648650426969,
+      "stop" : 1648650429014,
+      "duration" : 2045
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "e16aea95e8fafb43",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648650592886,
-      "stop" : 1648650602394,
-      "duration" : 9508
+      "start" : 1648739049193,
+      "stop" : 1648739087727,
+      "duration" : 38534
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "e59cb2b13d54684c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648739608097,
+      "stop" : 1648739611610,
+      "duration" : 3513
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET Users - Stubbed Response",
+    "uid" : "e80ad7626c778b6f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648699991917,
+      "stop" : 1648700002040,
+      "duration" : 10123
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add an item to the cart",
+    "uid" : "aea930b157576247",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648789556296,
+      "stop" : 1648789565965,
+      "duration" : 9669
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET Users - Stubbed Response",
+    "uid" : "95382e3d3329f9ae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1648658275413,
+      "stop" : 1648658275416,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add an item to the cart",
+    "uid" : "3b4e313e81e5e3ab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648789632453,
+      "stop" : 1648789642308,
+      "duration" : 9855
     },
     "flaky" : false,
     "newFailed" : false,
@@ -954,7 +427,7 @@
     "parameters" : [ ]
   }, {
     "name" : "GET User - Stubbed Response",
-    "uid" : "4f29469862b0c57",
+    "uid" : "c9321697278cad6c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
@@ -970,116 +443,31 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Tags testing",
-    "uid" : "44735337a7c99b1f",
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "eec36af843731feb",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1648645771061,
-      "stop" : 1648645775331,
-      "duration" : 4270
+      "start" : 1648657128781,
+      "stop" : 1648657138284,
+      "duration" : 9503
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : true,
     "parameters" : [ ]
   }, {
-    "name" : "GET User - Stubbed Response",
-    "uid" : "51935ec55e256df6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1648657536064,
-      "stop" : 1648657551940,
-      "duration" : 15876
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET User - Validate UI Stubbed Response",
-    "uid" : "a458f86216c6dff0",
+    "name" : "Oops...we found an error preparing this test file: features/loadurl.feature",
+    "uid" : "86fd24e3f92f95c2",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
-      "start" : 1648657350962,
-      "stop" : 1648657350964,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify the header - testing Library",
-    "uid" : "e4fd8e57f1ec3134",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648644319360,
-      "stop" : 1648644321831,
-      "duration" : 2471
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET Users - Stubbed Response",
-    "uid" : "451e23e50e2aca79",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648658524376,
-      "stop" : 1648658534289,
-      "duration" : 9913
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "GET Users - Stubbed Response",
-    "uid" : "3a95b567074a1589",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648659610247,
-      "stop" : 1648659632608,
-      "duration" : 22361
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify the header - testing Library",
-    "uid" : "e9bd6a00754fb9c2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648644442372,
-      "stop" : 1648644445360,
-      "duration" : 2988
+      "start" : 1648732373171,
+      "stop" : 1648732373171,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1090,7 +478,92 @@
     "parameters" : [ ]
   }, {
     "name" : "Article Validation - Stubbed Response",
-    "uid" : "d5031b51e212f8fd",
+    "uid" : "ccf34d796d2391f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648656137682,
+      "stop" : 1648656146509,
+      "duration" : 8827
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "bd660f61a5851f23",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648655541192,
+      "stop" : 1648655546316,
+      "duration" : 5124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET single User - Stubbed Response",
+    "uid" : "68fbb8dde57ec1a0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648659001272,
+      "stop" : 1648659010280,
+      "duration" : 9008
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "f603b1f56f783452",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648650602429,
+      "stop" : 1648650602935,
+      "duration" : 506
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Launch the Conduit url",
+    "uid" : "a90b17896591e6fa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648735958677,
+      "stop" : 1648735962554,
+      "duration" : 3877
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "befa66c78e06e438",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
@@ -1106,8 +579,399 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
+    "name" : "Launch the Conduit url",
+    "uid" : "4794d80cdb81b36e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648733193361,
+      "stop" : 1648733201796,
+      "duration" : 8435
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+    "uid" : "f54c5c64f2c3c657",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648732732756,
+      "stop" : 1648732732756,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Launch the book page - Intercept Book Call",
+    "uid" : "e680e1c3a6cc8e71",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648645508754,
+      "stop" : 1648645516586,
+      "duration" : 7832
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "Article Validation - Stubbed Response",
-    "uid" : "4f9388e29129117f",
+    "uid" : "16c15c2aa55753b6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648650488837,
+      "stop" : 1648650494700,
+      "duration" : 5863
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET User - Stubbed Response",
+    "uid" : "f9a8c58e77090c16",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648657536064,
+      "stop" : 1648657551940,
+      "duration" : 15876
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Tags Validation - Actual response",
+    "uid" : "f48d442bfba9f69b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648650592886,
+      "stop" : 1648650602394,
+      "duration" : 9508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "144c9703833b6489",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648742329130,
+      "stop" : 1648742389949,
+      "duration" : 60819
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET Users - Stubbed Response",
+    "uid" : "95f6577cdef3566f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648659610247,
+      "stop" : 1648659632608,
+      "duration" : 22361
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Launch the book store url",
+    "uid" : "1e521dca9434c470",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648727366985,
+      "stop" : 1648727370436,
+      "duration" : 3451
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET Users - Stubbed Response",
+    "uid" : "d15819258df33080",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648659768173,
+      "stop" : 1648659799469,
+      "duration" : 31296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Launch the Conduit url",
+    "uid" : "96b7d89410dc874d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648733262962,
+      "stop" : 1648733303623,
+      "duration" : 40661
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET single User - Stubbed Response",
+    "uid" : "5076d06b315ac17a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648702030671,
+      "stop" : 1648702041090,
+      "duration" : 10419
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the header - testing Library",
+    "uid" : "8ca4d0a067d87019",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648644405385,
+      "stop" : 1648644408277,
+      "duration" : 2892
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the header - testing Library",
+    "uid" : "e58759941ef56f38",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648644513497,
+      "stop" : 1648644518416,
+      "duration" : 4919
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "a23d65d5c421e89f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648742233070,
+      "stop" : 1648742273742,
+      "duration" : 40672
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Tags Validation - Actual response",
+    "uid" : "55b818e9709723eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648650482760,
+      "stop" : 1648650488791,
+      "duration" : 6031
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "45b7c9b3240ffd67",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648655049475,
+      "stop" : 1648655057409,
+      "duration" : 7934
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: features/launch.feature",
+    "uid" : "f0665c3a387b14cf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648726621601,
+      "stop" : 1648726621601,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add an item to the cart",
+    "uid" : "223033952d751fe8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648788825699,
+      "stop" : 1648788834202,
+      "duration" : 8503
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET single User - Stubbed Response",
+    "uid" : "71801256e10f385f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648659799530,
+      "stop" : 1648659824523,
+      "duration" : 24993
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+    "uid" : "1a31fd2f922a6a24",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648732642444,
+      "stop" : 1648732642444,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Tags testing",
+    "uid" : "22c4e5ce808d4ea6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648645771061,
+      "stop" : 1648645775331,
+      "duration" : 4270
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user - fail case",
+    "uid" : "469feca697d8a496",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648744490360,
+      "stop" : 1648744492760,
+      "duration" : 2400
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "308efa387fb772e7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
@@ -1124,13 +988,47 @@
     "parameters" : [ ]
   }, {
     "name" : "GET single User - Stubbed Response",
-    "uid" : "c131310b49d434da",
+    "uid" : "b6b659a56026722a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "broken",
     "time" : {
-      "start" : 1648659799530,
-      "stop" : 1648659824523,
-      "duration" : 24993
+      "start" : 1648659143502,
+      "stop" : 1648659143503,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: basic-examples/testing-library-sample.spec.ts",
+    "uid" : "3bced22e79b0416d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648732925512,
+      "stop" : 1648732925512,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "38c492899dadcefc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648655373514,
+      "stop" : 1648655434633,
+      "duration" : 61119
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1141,7 +1039,109 @@
     "parameters" : [ ]
   }, {
     "name" : "GET Users - Stubbed Response",
-    "uid" : "a02b966ba2618a6f",
+    "uid" : "3fca6cdf60d7c11b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648702015911,
+      "stop" : 1648702030441,
+      "duration" : 14530
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the header - testing Library - Fail Case",
+    "uid" : "4618fb0171757a6c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648644518425,
+      "stop" : 1648644524818,
+      "duration" : 6393
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET single User - Stubbed Response",
+    "uid" : "1a9e17f852b5062",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648658275416,
+      "stop" : 1648658310966,
+      "duration" : 35550
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET Users - Stubbed Response",
+    "uid" : "f9905b179ec4bc3b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648659189249,
+      "stop" : 1648659201435,
+      "duration" : 12186
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET User - Stubbed Response",
+    "uid" : "ac56c61c59cbd47f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648657906613,
+      "stop" : 1648657923812,
+      "duration" : 17199
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Click the first book - Should Assertions",
+    "uid" : "e7be93b453b59a7a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648637994999,
+      "stop" : 1648637996465,
+      "duration" : 1466
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET Users - Stubbed Response",
+    "uid" : "c883b9ed6875a98d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -1157,8 +1157,280 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "628a095feaf5d7a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648651554970,
+      "stop" : 1648651563067,
+      "duration" : 8097
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "a32ebac8bbe7c674",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648656392141,
+      "stop" : 1648656400816,
+      "duration" : 8675
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 14,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "3046d1bdebe9007d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648744544642,
+      "stop" : 1648744549191,
+      "duration" : 4549
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add an item to the cart",
+    "uid" : "fb7c3f8718a634c9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648789390865,
+      "stop" : 1648789398729,
+      "duration" : 7864
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user - fail case",
+    "uid" : "cad881739a7439c8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648744647337,
+      "stop" : 1648744648530,
+      "duration" : 1193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "d97be082495b2459",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648650802907,
+      "stop" : 1648650803445,
+      "duration" : 538
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Launch the book page - Intercept Book Call",
+    "uid" : "12767c046bc266bd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648645145592,
+      "stop" : 1648645149928,
+      "duration" : 4336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET User - Stubbed Response",
+    "uid" : "9bfd4ec4e076b1ca",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648657289776,
+      "stop" : 1648657350961,
+      "duration" : 61185
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "45b5654d79c5d407",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648744486190,
+      "stop" : 1648744490314,
+      "duration" : 4124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: features/launch.feature",
+    "uid" : "6afc9dc01ff958cc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648727148787,
+      "stop" : 1648727148787,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the header - testing Library",
+    "uid" : "62b4c605c0f24e2d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648644442372,
+      "stop" : 1648644445360,
+      "duration" : 2988
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "5759d7625fc91ce2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648656821101,
+      "stop" : 1648656841281,
+      "duration" : 20180
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "c35957e7d2212001",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648652159173,
+      "stop" : 1648652220253,
+      "duration" : 61080
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "58166d60bc4e4f90",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648657067843,
+      "stop" : 1648657080039,
+      "duration" : 12196
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "GET single User - Stubbed Response",
-    "uid" : "626df9f147ef8ea1",
+    "uid" : "2f3bc07af16d1149",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648659201486,
+      "stop" : 1648659210447,
+      "duration" : 8961
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add an item to the cart",
+    "uid" : "9781f00a3965001b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648789886713,
+      "stop" : 1648789892059,
+      "duration" : 5346
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET single User - Stubbed Response",
+    "uid" : "fd7cae9386db3bcd",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -1174,21 +1446,327 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Tags Validation - Actual response",
-    "uid" : "1cdb7f970baea8fa",
+    "name" : "Launch the book page - Intercept Book Call",
+    "uid" : "34d9d79926ac3acf",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1648650794438,
-      "stop" : 1648650802852,
-      "duration" : 8414
+      "start" : 1648645457472,
+      "stop" : 1648645464967,
+      "duration" : 7495
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET User - Validate UI Stubbed Response",
+    "uid" : "a4531189d6c027",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1648657350962,
+      "stop" : 1648657350964,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "4b2463eb7b19105b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648744933323,
+      "stop" : 1648744989077,
+      "duration" : 55754
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
     "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET Users - Stubbed Response",
+    "uid" : "26822e0d4c93f273",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648658524376,
+      "stop" : 1648658534289,
+      "duration" : 9913
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET single User - Stubbed Response",
+    "uid" : "f2a867424690f80a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648659632718,
+      "stop" : 1648659641727,
+      "duration" : 9009
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Launch the book store url",
+    "uid" : "8e77af0c0c2ff357",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648726868607,
+      "stop" : 1648726871929,
+      "duration" : 3322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user - fail case",
+    "uid" : "23d76517ddc11d37",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648744549232,
+      "stop" : 1648744551425,
+      "duration" : 2193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Username testing",
+    "uid" : "473ec7e4600fb39b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648645761856,
+      "stop" : 1648645771029,
+      "duration" : 9173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Launch the book page - Intercept Book Call",
+    "uid" : "a8d3ebf3a88bab2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648645618858,
+      "stop" : 1648645625039,
+      "duration" : 6181
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "a8a3dc85e1355bb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648650942290,
+      "stop" : 1648650950943,
+      "duration" : 8653
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "b2de7d9922036836",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648655209201,
+      "stop" : 1648655217669,
+      "duration" : 8468
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "fdd8adde3e550d3a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648744637770,
+      "stop" : 1648744647238,
+      "duration" : 9468
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add an item to the cart",
+    "uid" : "c70d56b929426182",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648789310564,
+      "stop" : 1648789318605,
+      "duration" : 8041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the header - testing Library",
+    "uid" : "53c41d9a3f2384ac",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648733127923,
+      "stop" : 1648733131978,
+      "duration" : 4055
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the header - testing Library - Fail Case",
+    "uid" : "db36cbecb85ebef8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648733132032,
+      "stop" : 1648733138790,
+      "duration" : 6758
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Article Validation - Stubbed Response",
+    "uid" : "790b5996c1dd815c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648656254238,
+      "stop" : 1648656263220,
+      "duration" : 8982
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add an item to the cart",
+    "uid" : "5a42add3d2a450c3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648789706040,
+      "stop" : 1648789716566,
+      "duration" : 10526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login with the user",
+    "uid" : "84de8566c93b92e0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1648739508240,
+      "stop" : 1648739513061,
+      "duration" : 4821
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the book detail",
+    "uid" : "c5274288638c0be9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648637985741,
+      "stop" : 1648637988763,
+      "duration" : 3022
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
     "parameters" : [ ]
   } ],
   "name" : "timeline"

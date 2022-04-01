@@ -1,0 +1,793 @@
+{
+  "uid" : "9781f00a3965001b",
+  "name" : "Add an item to the cart",
+  "fullName" : "Add an item to the cart",
+  "historyId" : "896e1f562f8686d6ef9b300c18060a8a",
+  "time" : {
+    "start" : 1648789886713,
+    "stop" : 1648789892059,
+    "duration" : 5346
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648789886720,
+        "stop" : 1648789886722,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given go to snipcart local env",
+      "time" : {
+        "start" : 1648789886741,
+        "stop" : 1648789888884,
+        "duration" : 2143
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit http://localhost:3000/",
+        "time" : {
+          "start" : 1648789886742,
+          "stop" : 1648789888878,
+          "duration" : 2136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://app.snipcart.com/api/sessions",
+        "time" : {
+          "start" : 1648789888878,
+          "stop" : 1648789888878,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.snipcart.com/themes/v3.3.1/l10n/en.json",
+        "time" : {
+          "start" : 1648789888878,
+          "stop" : 1648789888878,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /_next/static/development/_devPagesManifest.json",
+        "time" : {
+          "start" : 1648789888878,
+          "stop" : 1648789888878,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And set the viewport of the window",
+      "time" : {
+        "start" : 1648789888884,
+        "stop" : 1648789888904,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "viewport 1792, 522",
+        "time" : {
+          "start" : 1648789888886,
+          "stop" : 1648789888897,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then verify the snipcart header",
+      "time" : {
+        "start" : 1648789888904,
+        "stop" : 1648789888958,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findAllByText Snipcart Store",
+        "time" : {
+          "start" : 1648789888905,
+          "stop" : 1648789888950,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <title>, 1 more... ]** to exist in the DOM",
+        "time" : {
+          "start" : 1648789888950,
+          "stop" : 1648789888950,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "[ <title>, 1 more... ]"
+        }, {
+          "name" : "expected",
+          "value" : "[ <title>, 1 more... ]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given the lands on the items page",
+      "time" : {
+        "start" : 1648789888958,
+        "stop" : 1648789889011,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Snipcart Logo Sticker",
+        "time" : {
+          "start" : 1648789888961,
+          "stop" : 1648789888986,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789888986,
+          "stop" : 1648789888986,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h3>"
+        }, {
+          "name" : "expected",
+          "value" : "<h3>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "findByText Snipcart Logo Sticker Pack",
+        "time" : {
+          "start" : 1648789888986,
+          "stop" : 1648789889006,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789889006,
+          "stop" : 1648789889006,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h3>"
+        }, {
+          "name" : "expected",
+          "value" : "<h3>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And click on the first product",
+      "time" : {
+        "start" : 1648789889011,
+        "stop" : 1648789889182,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Snipcart Logo Sticker",
+        "time" : {
+          "start" : 1648789889012,
+          "stop" : 1648789889024,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789889024,
+          "stop" : 1648789889024,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h3>"
+        }, {
+          "name" : "expected",
+          "value" : "<h3>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1648789889024,
+          "stop" : 1648789889177,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And click on the add cart button",
+      "time" : {
+        "start" : 1648789889182,
+        "stop" : 1648789890262,
+        "duration" : 1080
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Add to Cart",
+        "time" : {
+          "start" : 1648789889184,
+          "stop" : 1648789890145,
+          "duration" : 961
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<button.snipcart-add-item>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789890145,
+          "stop" : 1648789890145,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<button.snipcart-add-item>"
+        }, {
+          "name" : "expected",
+          "value" : "<button.snipcart-add-item>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET 200 /_next/data/development/products/sticker_logo.json",
+        "time" : {
+          "start" : 1648789890145,
+          "stop" : 1648789890145,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url http://localhost:3000/products/sticker_logo",
+        "time" : {
+          "start" : 1648789890145,
+          "stop" : 1648789890145,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1648789890145,
+          "stop" : 1648789890257,
+          "duration" : 112
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url http://localhost:3000/products/sticker_logo#/cart",
+        "time" : {
+          "start" : 1648789890257,
+          "stop" : 1648789890257,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And check the cart summary with below details",
+      "time" : {
+        "start" : 1648789890262,
+        "stop" : 1648789892043,
+        "duration" : 1781
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Snipcart Logo Sticker",
+        "time" : {
+          "start" : 1648789890264,
+          "stop" : 1648789890281,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h1>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789890281,
+          "stop" : 1648789890281,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h1>"
+        }, {
+          "name" : "expected",
+          "value" : "<h1>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "findByText Quantity",
+        "time" : {
+          "start" : 1648789890281,
+          "stop" : 1648789892004,
+          "duration" : 1723
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<label.snipcart-item-quantity__label.snipcart__font--tiny>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789892003,
+          "stop" : 1648789892003,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<label.snipcart-item-quantity__label.snipcart__font--tiny>"
+        }, {
+          "name" : "expected",
+          "value" : "<label.snipcart-item-quantity__label.snipcart__font--tiny>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST 201 https://app.snipcart.com/api/cart",
+        "time" : {
+          "start" : 1648789892003,
+          "stop" : 1648789892003,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://app.snipcart.com/api/cart/3090b9ee-1fce-47fe-85dc-8d479b345a40/items",
+        "time" : {
+          "start" : 1648789892003,
+          "stop" : 1648789892003,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "findAllByText 1",
+        "time" : {
+          "start" : 1648789892004,
+          "stop" : 1648789892011,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "eq 1",
+        "time" : {
+          "start" : 1648789892011,
+          "stop" : 1648789892018,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "findAllByText $2.00",
+        "time" : {
+          "start" : 1648789892018,
+          "stop" : 1648789892028,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains $2.00",
+        "time" : {
+          "start" : 1648789892028,
+          "stop" : 1648789892040,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then verify the checkout",
+      "time" : {
+        "start" : 1648789892043,
+        "stop" : 1648789892059,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Checkout",
+        "time" : {
+          "start" : 1648789892043,
+          "stop" : 1648789892057,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<div.snipcart-base-button__label>** to exist in the DOM",
+        "time" : {
+          "start" : 1648789892057,
+          "stop" : 1648789892057,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<div.snipcart-base-button__label>"
+        }, {
+          "name" : "expected",
+          "value" : "<div.snipcart-base-button__label>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1648789892086,
+        "stop" : 1648789892088,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 42,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "SnipCart Website Local"
+  }, {
+    "name" : "feature",
+    "value" : "SnipCart Website Local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5e5ac2cbebaaf82f",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `$2.00`, but never found it. Queried from element: [ <span.snipcart-total-price>, 3 more... ]",
+      "time" : {
+        "start" : 1648789745126,
+        "stop" : 1648789754898,
+        "duration" : 9772
+      }
+    }, {
+      "uid" : "5a42add3d2a450c3",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Found multiple elements with the text: $2.00\n\nHere are the matching elements:\n\nIgnored nodes: comments, <script />, <style />\n<span\n  class=\"snipcart-total-price\"\n>\n  $2.00\n</span>\n\nIgnored nodes: comments, <script />, <style />\n<p>\n  $\n  2.00\n</p>\n\nIgnored nodes: comments, <script />, <style />\n<div\n  class=\"snipcart-item-quantity__total-price snipcart__font--bold snipcart__font--secondary\"\n>\n   $2.00 \n</div>\n\nIgnored nodes: comments, <script />, <style />\n<span\n  class=\"snipcart-summary-fees__amount snipcart-summary-fees__amount--highlight snipcart__font--large\"\n>\n  $2.00\n</span>\n\n(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).\n\nIgnored nodes: comments, <script />, <style />\n<html\n  class=\"snipcart-cart--opened\"\n>\n  <head>\n     \n    <link\n      href=\"/favicon.ico\"\n      rel=\"icon\"\n    />\n    <link\n      href=\"https://app.snipcart.com\"\n      rel=\"preconnect\"\n    />\n    <link\n      href=\"https://cdn.snipcart.com\"\n      rel=\"preconnect\"\n    />\n    <link\n      href=\"https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css\"\n      rel=\"stylesheet\"\n    />\n    <meta\n      content=\"width=device-width\"\n      name=\"viewport\"\n    />\n    <meta\n      charset=\"utf-8\"\n    />\n    <title>\n      Snipcart Logo Sticker - Snipcart Store\n    </title>\n    <noscript\n      data-n-css=\"true\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/main.js?ts=1648789706118\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/webpack.js?ts=1648789706118\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/pages/_app.js?ts=1648789706118\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/pages/index.js?ts=1648789706118\"\n      rel=\"preload\"\n    />\n    <noscript\n      id=\"__next_css__DO_NOT_USE__\"\n    />\n  </head>\n  <body>\n    <div\n      id=\"__next\"\n    >\n      <div\n        class=\"Layout_layout__1eMGm\"\n      >\n        <nav\n          class=\"Nav_nav__26dTB\"\n        >\n          <div\n            class=\"Container_container__3nTV1 Nav_navContainer__1X5od\"\n          >\n            <p\n              class=\"Nav_title__3Y7f_\"\n            >\n              <a\n                href=\"/\"\n              >\n                Snipcart Store\n              </a>\n            </p>\n            <p\n              class=\"Nav_description__1s2NL\"\n            >\n              <a\n                class=\"snipcart-checkout snipcart-summary\"\n                href=\"#\"\n                style=\"text-decoration: none;\"\n              >\n                <svg\n                  fill=\"currentColor\"\n                  height=\"1em\"\n                  stroke=\"currentColor\"\n                  stroke-width=\"0\"\n                  viewBox=\"0 0 576 512\"\n                  width=\"1em\"\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                >\n                  <path\n                    d=\"M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z\"\n                  />\n                </svg>\n                <strong\n                  class=\"sr-only\"\n                >\n                  Cart\n                </strong>\n                <span\n                  class=\"snipcart-total-price\"\n                >\n                  $2.00\n                </span>\n              </a>\n            </p>\n          </div>\n        </nav>\n        <div\n          class=\"Container_container__3nTV1\"\n        >\n          <div\n            class=\"Product_product__3sF2Y\"\n          >\n            <div\n              class=\"Product_productImage__pbY2X\"\n            >\n              <img\n                alt=\"Preview of Snipcart Logo Sticker\"\n                src=\"/images/sticker-single.jpg\"\n              />\n            </div>\n            <div>\n              <h1>\n                Snipcart Logo Sticker\n              </h1>\n              <p>\n                Show off your Snipcart support with a logo sticker!\n              </p>\n              <p>\n                $\n                2.00\n              </p>\n              <p>\n                <button\n                  class=\"snipcart-add-item\"\n                  data-item-id=\"sticker_logo\"\n                  data-item-image=\"/images/sticker-single.jpg\"\n                  data-item-name=\"Snipcart Logo Sticker\"\n                  data-item-price=\"2.00\"\n                  data-item-url=\"/products/sticker_logo\"\n                >\n                  Add to Cart\n                </button>\n              </p>\n            </div>\n          </div>\n        </div>\n        <footer\n          class=\"Footer_footer__2rHyp\"\n        >\n          <div\n            class=\"Container_container__3nTV1 Footer_footerContainer__1vWBn\"\n          >\n            © Snipcart Store\n          </div>\n        </footer>\n      </div>\n    </div>\n    <div\n      id=\"__next-build-watcher\"\n      style=\"position: fixed; bottom: 10px; right: 20px; width: 0px; height: 0px; z-index: 99999;\"\n    />\n    <div\n      id=\"__next-prerender-indicator\"\n      style=\"position: fixed; bottom: 20px; right: 10px; width: 0px; height: 0px; z-index: 99998; transition: all 100ms ease 0s;\"\n    />\n    <div\n      class=\"snipcart\"\n      id=\"snipcart\"\n    >\n      <div\n        class=\"snipcart-modal__container\"\n      >\n        <div\n          class=\"snipcart-layout snipcart-modal\"\n        >\n          <header\n            class=\"snipcart-cart-header\"\n          >\n            <button\n              class=\"snipcart-cart-header__close-button snipcart-modal__close\"\n            >\n              <svg\n                alt=\"\"\n                class=\"snipcart-modal__close-icon snipcart__icon\"\n                fill=\"none\"\n                title=\"\"\n                viewBox=\"0 0 64 64\"\n                xmlns=\"http://www.w3.org/2000/svg\"\n              >\n                <path\n                  d=\"M12.636 30.158H58v3.423H12.372l9.148 9.055L19.132 45 6 32l13.132-13 2.388 2.364-8.884 8.794z\"\n                  fill=\"currentColor\"\n                />\n              </svg>\n              <span\n                class=\"snipcart-modal__close-title snipcart__font--std\"\n              >\n                 Continue shopping \n              </span>\n            </button>\n            <div>\n              <h3\n                class=\"snipcart-cart-header__title snipcart__font--black snipcart__font--secondary\"\n              >\n                 Cart summary \n              </h3>\n            </div>\n            <div\n              class=\"snipcart-cart-header__options\"\n            >\n              <button\n                class=\"snipcart-cart-header__option snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold\"\n              >\n                <svg\n                  alt=\"\"\n                  class=\"snipcart-cart-header__icon snipcart__icon\"\n                  fill=\"none\"\n                  title=\"\"\n                  viewBox=\"0 0 64 64\"\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                >\n                  <path\n                    clip-rule=\"evenodd\"\n                    d=\"M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587H15.31l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.28...",
+      "time" : {
+        "start" : 1648789706040,
+        "stop" : 1648789716566,
+        "duration" : 10526
+      }
+    }, {
+      "uid" : "3b4e313e81e5e3ab",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Found multiple elements with the text: 1\n\nHere are the matching elements:\n\nIgnored nodes: comments, <script />, <style />\n<button\n  class=\"snipcart-cart-header__option snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold\"\n>\n  <svg\n    alt=\"\"\n    class=\"snipcart-cart-header__icon snipcart__icon\"\n    fill=\"none\"\n    title=\"\"\n    viewBox=\"0 0 64 64\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      clip-rule=\"evenodd\"\n      d=\"M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587H15.31l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.285 9.883V20.47h6.572v3.294h-6.572z\"\n      fill=\"currentColor\"\n      fill-rule=\"evenodd\"\n    />\n  </svg>\n   1 \n</button>\n\nIgnored nodes: comments, <script />, <style />\n<span\n  class=\"snipcart__font--secondary snipcart__font--regular\"\n>\n  1\n</span>\n\n(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).\n\nIgnored nodes: comments, <script />, <style />\n<html\n  class=\"snipcart-cart--opened\"\n>\n  <head>\n     \n    <link\n      href=\"/favicon.ico\"\n      rel=\"icon\"\n    />\n    <link\n      href=\"https://app.snipcart.com\"\n      rel=\"preconnect\"\n    />\n    <link\n      href=\"https://cdn.snipcart.com\"\n      rel=\"preconnect\"\n    />\n    <link\n      href=\"https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css\"\n      rel=\"stylesheet\"\n    />\n    <meta\n      content=\"width=device-width\"\n      name=\"viewport\"\n    />\n    <meta\n      charset=\"utf-8\"\n    />\n    <title>\n      Snipcart Logo Sticker - Snipcart Store\n    </title>\n    <noscript\n      data-n-css=\"true\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/main.js?ts=1648789632543\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/webpack.js?ts=1648789632543\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/pages/_app.js?ts=1648789632543\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/pages/index.js?ts=1648789632543\"\n      rel=\"preload\"\n    />\n    <noscript\n      id=\"__next_css__DO_NOT_USE__\"\n    />\n  </head>\n  <body>\n    <div\n      id=\"__next\"\n    >\n      <div\n        class=\"Layout_layout__1eMGm\"\n      >\n        <nav\n          class=\"Nav_nav__26dTB\"\n        >\n          <div\n            class=\"Container_container__3nTV1 Nav_navContainer__1X5od\"\n          >\n            <p\n              class=\"Nav_title__3Y7f_\"\n            >\n              <a\n                href=\"/\"\n              >\n                Snipcart Store\n              </a>\n            </p>\n            <p\n              class=\"Nav_description__1s2NL\"\n            >\n              <a\n                class=\"snipcart-checkout snipcart-summary\"\n                href=\"#\"\n                style=\"text-decoration: none;\"\n              >\n                <svg\n                  fill=\"currentColor\"\n                  height=\"1em\"\n                  stroke=\"currentColor\"\n                  stroke-width=\"0\"\n                  viewBox=\"0 0 576 512\"\n                  width=\"1em\"\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                >\n                  <path\n                    d=\"M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z\"\n                  />\n                </svg>\n                <strong\n                  class=\"sr-only\"\n                >\n                  Cart\n                </strong>\n                <span\n                  class=\"snipcart-total-price\"\n                >\n                  $2.00\n                </span>\n              </a>\n            </p>\n          </div>\n        </nav>\n        <div\n          class=\"Container_container__3nTV1\"\n        >\n          <div\n            class=\"Product_product__3sF2Y\"\n          >\n            <div\n              class=\"Product_productImage__pbY2X\"\n            >\n              <img\n                alt=\"Preview of Snipcart Logo Sticker\"\n                src=\"/images/sticker-single.jpg\"\n              />\n            </div>\n            <div>\n              <h1>\n                Snipcart Logo Sticker\n              </h1>\n              <p>\n                Show off your Snipcart support with a logo sticker!\n              </p>\n              <p>\n                $\n                2.00\n              </p>\n              <p>\n                <button\n                  class=\"snipcart-add-item\"\n                  data-item-id=\"sticker_logo\"\n                  data-item-image=\"/images/sticker-single.jpg\"\n                  data-item-name=\"Snipcart Logo Sticker\"\n                  data-item-price=\"2.00\"\n                  data-item-url=\"/products/sticker_logo\"\n                >\n                  Add to Cart\n                </button>\n              </p>\n            </div>\n          </div>\n        </div>\n        <footer\n          class=\"Footer_footer__2rHyp\"\n        >\n          <div\n            class=\"Container_container__3nTV1 Footer_footerContainer__1vWBn\"\n          >\n            © Snipcart Store\n          </div>\n        </footer>\n      </div>\n    </div>\n    <div\n      id=\"__next-build-watcher\"\n      style=\"position: fixed; bottom: 10px; right: 20px; width: 0px; height: 0px; z-index: 99999;\"\n    />\n    <div\n      id=\"__next-prerender-indicator\"\n      style=\"position: fixed; bottom: 20px; right: 10px; width: 0px; height: 0px; z-index: 99998; transition: all 100ms ease 0s;\"\n    />\n    <div\n      class=\"snipcart\"\n      id=\"snipcart\"\n    >\n      <div\n        class=\"snipcart-modal__container\"\n      >\n        <div\n          class=\"snipcart-layout snipcart-modal\"\n        >\n          <header\n            class=\"snipcart-cart-header\"\n          >\n            <button\n              class=\"snipcart-cart-header__close-button snipcart-modal__close\"\n            >\n              <svg\n                alt=\"\"\n                class=\"snipcart-modal__close-icon snipcart__icon\"\n                fill=\"none\"\n                title=\"\"\n                viewBox=\"0 0 64 64\"\n                xmlns=\"http://www.w3.org/2000/svg\"\n              >\n                <path\n                  d=\"M12.636 30.158H58v3.423H12.372l9.148 9.055L19.132 45 6 32l13.132-13 2.388 2.364-8.884 8.794z\"\n                  fill=\"currentColor\"\n                />\n              </svg>\n              <span\n                class=\"snipcart-modal__close-title snipcart__font--std\"\n              >\n                 Continue shopping \n              </span>\n            </button>\n            <div>\n              <h3\n                class=\"snipcart-cart-header__title snipcart__font--black snipcart__font--secondary\"\n              >\n                 Cart summary \n              </h3>\n            </div>\n            <div\n              class=\"snipcart-cart-header__options\"\n            >\n              <button\n                class=\"snipcart-cart-header__option snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold\"\n              >\n                <svg\n                  alt=\"\"\n                  class=\"snipcart-cart-header__icon snipcart__icon\"\n                  fill=\"none\"\n                  title=\"\"\n                  viewBox=\"0 0 64 64\"\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                >\n                  <path\n                    clip-rule=\"evenodd\"\n                    d=\"M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587H15.31l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.28...",
+      "time" : {
+        "start" : 1648789632453,
+        "stop" : 1648789642308,
+        "duration" : 9855
+      }
+    }, {
+      "uid" : "aea930b157576247",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `1`, but never found it. Queried from element: <label.snipcart-item-quantity__label.snipcart__font--tiny>",
+      "time" : {
+        "start" : 1648789556296,
+        "stop" : 1648789565965,
+        "duration" : 9669
+      }
+    }, {
+      "uid" : "619b22fec61120e1",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `1`, but never found it. Queried from element: <label.snipcart-item-quantity__label.snipcart__font--tiny>",
+      "time" : {
+        "start" : 1648789446642,
+        "stop" : 1648789455786,
+        "duration" : 9144
+      }
+    }, {
+      "uid" : "fb7c3f8718a634c9",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Found a label with the text of: Quantity, however no form control was found associated to that label. Make sure you're using the \"for\" attribute or \"aria-labelledby\" attribute correctly.\n\nIgnored nodes: comments, <script />, <style />\n<html\n  class=\"snipcart-cart--opened\"\n>\n  <head>\n     \n    <link\n      href=\"/favicon.ico\"\n      rel=\"icon\"\n    />\n    <link\n      href=\"https://app.snipcart.com\"\n      rel=\"preconnect\"\n    />\n    <link\n      href=\"https://cdn.snipcart.com\"\n      rel=\"preconnect\"\n    />\n    <link\n      href=\"https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css\"\n      rel=\"stylesheet\"\n    />\n    <meta\n      content=\"width=device-width\"\n      name=\"viewport\"\n    />\n    <meta\n      charset=\"utf-8\"\n    />\n    <title>\n      Snipcart Logo Sticker - Snipcart Store\n    </title>\n    <noscript\n      data-n-css=\"true\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/main.js?ts=1648789390937\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/webpack.js?ts=1648789390937\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/pages/_app.js?ts=1648789390937\"\n      rel=\"preload\"\n    />\n    <link\n      as=\"script\"\n      href=\"/_next/static/chunks/pages/index.js?ts=1648789390937\"\n      rel=\"preload\"\n    />\n    <noscript\n      id=\"__next_css__DO_NOT_USE__\"\n    />\n  </head>\n  <body>\n    <div\n      id=\"__next\"\n    >\n      <div\n        class=\"Layout_layout__1eMGm\"\n      >\n        <nav\n          class=\"Nav_nav__26dTB\"\n        >\n          <div\n            class=\"Container_container__3nTV1 Nav_navContainer__1X5od\"\n          >\n            <p\n              class=\"Nav_title__3Y7f_\"\n            >\n              <a\n                href=\"/\"\n              >\n                Snipcart Store\n              </a>\n            </p>\n            <p\n              class=\"Nav_description__1s2NL\"\n            >\n              <a\n                class=\"snipcart-checkout snipcart-summary\"\n                href=\"#\"\n                style=\"text-decoration: none;\"\n              >\n                <svg\n                  fill=\"currentColor\"\n                  height=\"1em\"\n                  stroke=\"currentColor\"\n                  stroke-width=\"0\"\n                  viewBox=\"0 0 576 512\"\n                  width=\"1em\"\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                >\n                  <path\n                    d=\"M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z\"\n                  />\n                </svg>\n                <strong\n                  class=\"sr-only\"\n                >\n                  Cart\n                </strong>\n                <span\n                  class=\"snipcart-total-price\"\n                >\n                  $2.00\n                </span>\n              </a>\n            </p>\n          </div>\n        </nav>\n        <div\n          class=\"Container_container__3nTV1\"\n        >\n          <div\n            class=\"Product_product__3sF2Y\"\n          >\n            <div\n              class=\"Product_productImage__pbY2X\"\n            >\n              <img\n                alt=\"Preview of Snipcart Logo Sticker\"\n                src=\"/images/sticker-single.jpg\"\n              />\n            </div>\n            <div>\n              <h1>\n                Snipcart Logo Sticker\n              </h1>\n              <p>\n                Show off your Snipcart support with a logo sticker!\n              </p>\n              <p>\n                $\n                2.00\n              </p>\n              <p>\n                <button\n                  class=\"snipcart-add-item\"\n                  data-item-id=\"sticker_logo\"\n                  data-item-image=\"/images/sticker-single.jpg\"\n                  data-item-name=\"Snipcart Logo Sticker\"\n                  data-item-price=\"2.00\"\n                  data-item-url=\"/products/sticker_logo\"\n                >\n                  Add to Cart\n                </button>\n              </p>\n            </div>\n          </div>\n        </div>\n        <footer\n          class=\"Footer_footer__2rHyp\"\n        >\n          <div\n            class=\"Container_container__3nTV1 Footer_footerContainer__1vWBn\"\n          >\n            © Snipcart Store\n          </div>\n        </footer>\n      </div>\n    </div>\n    <div\n      id=\"__next-build-watcher\"\n      style=\"position: fixed; bottom: 10px; right: 20px; width: 0px; height: 0px; z-index: 99999;\"\n    />\n    <div\n      id=\"__next-prerender-indicator\"\n      style=\"position: fixed; bottom: 20px; right: 10px; width: 0px; height: 0px; z-index: 99998; transition: all 100ms ease 0s;\"\n    />\n    <div\n      class=\"snipcart\"\n      id=\"snipcart\"\n    >\n      <div\n        class=\"snipcart-modal__container\"\n      >\n        <div\n          class=\"snipcart-layout snipcart-modal\"\n        >\n          <header\n            class=\"snipcart-cart-header\"\n          >\n            <button\n              class=\"snipcart-cart-header__close-button snipcart-modal__close\"\n            >\n              <svg\n                alt=\"\"\n                class=\"snipcart-modal__close-icon snipcart__icon\"\n                fill=\"none\"\n                title=\"\"\n                viewBox=\"0 0 64 64\"\n                xmlns=\"http://www.w3.org/2000/svg\"\n              >\n                <path\n                  d=\"M12.636 30.158H58v3.423H12.372l9.148 9.055L19.132 45 6 32l13.132-13 2.388 2.364-8.884 8.794z\"\n                  fill=\"currentColor\"\n                />\n              </svg>\n              <span\n                class=\"snipcart-modal__close-title snipcart__font--std\"\n              >\n                 Continue shopping \n              </span>\n            </button>\n            <div>\n              <h3\n                class=\"snipcart-cart-header__title snipcart__font--black snipcart__font--secondary\"\n              >\n                 Cart summary \n              </h3>\n            </div>\n            <div\n              class=\"snipcart-cart-header__options\"\n            >\n              <button\n                class=\"snipcart-cart-header__option snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold\"\n              >\n                <svg\n                  alt=\"\"\n                  class=\"snipcart-cart-header__icon snipcart__icon\"\n                  fill=\"none\"\n                  title=\"\"\n                  viewBox=\"0 0 64 64\"\n                  xmlns=\"http://www.w3.org/2000/svg\"\n                >\n                  <path\n                    clip-rule=\"evenodd\"\n                    d=\"M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587H15.31l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.28...",
+      "time" : {
+        "start" : 1648789390865,
+        "stop" : 1648789398729,
+        "duration" : 7864
+      }
+    }, {
+      "uid" : "c70d56b929426182",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `Snipcart Logo Sticker`, but never found it. Queried from element: <h1>",
+      "time" : {
+        "start" : 1648789310564,
+        "stop" : 1648789318605,
+        "duration" : 8041
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9781f00a3965001b.json",
+  "parameterValues" : [ ]
+}

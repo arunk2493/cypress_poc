@@ -1,0 +1,480 @@
+{
+  "uid" : "23d76517ddc11d37",
+  "name" : "Login with the user - fail case",
+  "fullName" : "Login with the user - fail case",
+  "historyId" : "89e8963baf78b88fd3b84041d3ace2d9",
+  "time" : {
+    "start" : 1648744549232,
+    "stop" : 1648744551425,
+    "duration" : 2193
+  },
+  "status" : "failed",
+  "statusMessage" : "Cannot read properties of undefined (reading 'rawTable')",
+  "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'rawTable')\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/features/loadurl.feature:43:29)\n    at Context.resolveAndRunStepDefinition (https://angular.realworld.io/__cypress/tests?p=cypress/integration/features/loadurl.feature:12289:29)\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/features/loadurl.feature:11610:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Cannot read properties of undefined (reading 'rawTable')",
+    "statusTrace" : "TypeError: Cannot read properties of undefined (reading 'rawTable')\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/features/loadurl.feature:43:29)\n    at Context.resolveAndRunStepDefinition (https://angular.realworld.io/__cypress/tests?p=cypress/integration/features/loadurl.feature:12289:29)\n    at Context.eval (https://angular.realworld.io/__cypress/tests?p=cypress/integration/features/loadurl.feature:11610:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648744549233,
+        "stop" : 1648744549291,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given go to conduit url",
+      "time" : {
+        "start" : 1648744549302,
+        "stop" : 1648744549639,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://angular.realworld.io/",
+        "time" : {
+          "start" : 1648744549304,
+          "stop" : 1648744549637,
+          "duration" : 333
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/tags",
+        "time" : {
+          "start" : 1648744549637,
+          "stop" : 1648744549637,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://conduit.productionready.io/api/articles?limit=10&offset=0",
+        "time" : {
+          "start" : 1648744549637,
+          "stop" : 1648744549637,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And verify the conduit header",
+      "time" : {
+        "start" : 1648744549639,
+        "stop" : 1648744549653,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findAllByText conduit",
+        "time" : {
+          "start" : 1648744549640,
+          "stop" : 1648744549651,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <a.navbar-brand>, 2 more... ]** to exist in the DOM",
+        "time" : {
+          "start" : 1648744549651,
+          "stop" : 1648744549651,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "[ <a.navbar-brand>, 2 more... ]"
+        }, {
+          "name" : "expected",
+          "value" : "[ <a.navbar-brand>, 2 more... ]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given the user clicks signin button",
+      "time" : {
+        "start" : 1648744549653,
+        "stop" : 1648744549794,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByText Sign in",
+        "time" : {
+          "start" : 1648744549653,
+          "stop" : 1648744549661,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<a.nav-link>** to exist in the DOM",
+        "time" : {
+          "start" : 1648744549661,
+          "stop" : 1648744549661,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<a.nav-link>"
+        }, {
+          "name" : "expected",
+          "value" : "<a.nav-link>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1648744549661,
+          "stop" : 1648744549783,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://angular.realworld.io/login",
+        "time" : {
+          "start" : 1648744549782,
+          "stop" : 1648744549782,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "findByPlaceholderText Email",
+        "time" : {
+          "start" : 1648744549783,
+          "stop" : 1648744549791,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<input.form-control.form-control-lg.ng-untouched.ng-pristine.ng-invalid>** to exist in the DOM",
+        "time" : {
+          "start" : 1648744549791,
+          "stop" : 1648744549791,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<input.form-control.form-control-lg.ng-untouched.ng-pristine.ng-invalid>"
+        }, {
+          "name" : "expected",
+          "value" : "<input.form-control.form-control-lg.ng-untouched.ng-pristine.ng-invalid>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And enter the below details",
+      "time" : {
+        "start" : 1648744549794,
+        "stop" : 1648744550480,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findByPlaceholderText Email",
+        "time" : {
+          "start" : 1648744549795,
+          "stop" : 1648744549802,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type Arunk24",
+        "time" : {
+          "start" : 1648744549802,
+          "stop" : 1648744550050,
+          "duration" : 248
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "findByPlaceholderText Password",
+        "time" : {
+          "start" : 1648744550051,
+          "stop" : 1648744550108,
+          "duration" : 57
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type Welcome@2022",
+        "time" : {
+          "start" : 1648744550108,
+          "stop" : 1648744550478,
+          "duration" : 370
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And click on the signin button",
+      "time" : {
+        "start" : 1648744550480,
+        "stop" : 1648744550492,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findAllByText conduit",
+        "time" : {
+          "start" : 1648744550480,
+          "stop" : 1648744550490,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <a.navbar-brand>, 1 more... ]** to exist in the DOM",
+        "time" : {
+          "start" : 1648744550490,
+          "stop" : 1648744550490,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "[ <a.navbar-brand>, 1 more... ]"
+        }, {
+          "name" : "expected",
+          "value" : "[ <a.navbar-brand>, 1 more... ]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then verify the username not at the top",
+      "time" : {
+        "start" : 1648744550492,
+        "stop" : 1648744551424,
+        "duration" : 932
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "then {}, function(){}",
+        "time" : {
+          "start" : 1648744551423,
+          "stop" : 1648744551423,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1648744551436,
+        "stop" : 1648744551444,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b6f0f637ec7e005b",
+      "name" : "features/loadurl.feature:2022-03-31T16:35:50.520Z",
+      "source" : "b6f0f637ec7e005b.png",
+      "type" : "image/png",
+      "size" : 627026
+    }, {
+      "uid" : "1c63974343d3a7c2",
+      "name" : "video recording",
+      "source" : "1c63974343d3a7c2.mp4",
+      "type" : "video/mp4",
+      "size" : 3466301
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "feature",
+    "value" : "Conduit Webpage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23d76517ddc11d37.json",
+  "parameterValues" : [ ]
+}
